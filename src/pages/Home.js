@@ -1,9 +1,10 @@
 import React from "react";
+import header from "../assets/svg/header.svg";
 
 const Home = () => {
   return (
     <div>
-      <h1>Clarklake Cookbook</h1>
+      <img src={header} alt="clarklake cookbook header" />
     </div>
   );
 };
