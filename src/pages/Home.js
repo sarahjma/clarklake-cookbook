@@ -11,9 +11,24 @@ const Home = () => {
         <img src={header} alt="clarklake cookbook header" />
         <img className="bowl-svg" src={bowl} alt="" />
       </div>
-      <RecipeCard category="main" />
-      <RecipeCard category="dessert" />
-      <RecipeCard category="other" />
+      <div className="recipe-category">
+        <h2 className="category-title">Mains</h2>
+        <div className="recipe-category-cards">
+          <RecipeCard category="main" />
+        </div>
+      </div>
+      <div className="recipe-category">
+        <h2 className="category-title">Desserts</h2>
+        <div className="recipe-category-cards">
+          <RecipeCard category="dessert" />
+        </div>
+      </div>
+      <div className="recipe-category">
+        <h2 className="category-title">Others</h2>
+        <div className="recipe-category-cards">
+          <RecipeCard category="other" />
+        </div>
+      </div>
     </HomeStyle>
   );
 };
@@ -27,10 +42,21 @@ const HomeStyle = styled.div`
     justify-content: space-around;
     align-items: flex-end;
     padding: 1em 1em 4em;
-    /* box-shadow: 0px 7px 10px -3px rgb(27 112 35 / 39%); */
   }
   .bowl-svg {
     max-width: 15%;
+  }
+  .recipe-category {
+    padding: 3em 0;
+  }
+  .category-title {
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+  }
+  .recipe-category-cards {
+    display: flex;
+    justify-content: space-between;
   }
 `;
 

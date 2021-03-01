@@ -3,30 +3,30 @@ import data from "../data/recipeIndex.json";
 import styled from "styled-components";
 
 const RecipeCard = (props) => {
-  return (
-    <RecipeCardStyle>
-      {data
-        .filter((recipe) => recipe.category === props.category)
-        .slice(0, 3)
-        .map((x) => (
-          <div className="card">
-            <div className="img-container">
-              <img className="recipe-img" src={x.attImg} alt="" />
-              <div className="icon-container">
-                <div className="dietary">
-                  {x.dietary.map((y) => (
-                    <p className="badge">{y}</p>
-                  ))}
-                </div>
+  return data
+    .filter((recipe) => recipe.category === props.category)
+    .slice(0, 3)
+    .map((x) => (
+      <RecipeCardStyle>
+        <div className="card">
+          <div className="img-container">
+            <img className="recipe-img" src={x.attImg} alt="" />
+            <div className="icon-container">
+              <div className="dietary">
+                {x.dietary.map((y) => (
+                  <p className="badge" key={y}>
+                    {y}
+                  </p>
+                ))}
               </div>
             </div>
-            <div className="descrip">
-              <h3>{x.title}</h3>
-            </div>
           </div>
-        ))}
-    </RecipeCardStyle>
-  );
+          <div className="descrip">
+            <h3>{x.title}</h3>
+          </div>
+        </div>
+      </RecipeCardStyle>
+    ));
 };
 
 const RecipeCardStyle = styled.div`
@@ -70,6 +70,8 @@ const RecipeCardStyle = styled.div`
   h3 {
     width: auto;
     text-align: left;
+    font-weight: 400;
+    letter-spacing: 2px;
   }
 `;
 
