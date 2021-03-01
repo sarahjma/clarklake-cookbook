@@ -2,6 +2,7 @@ import React from "react";
 import header from "../assets/svg/header.svg";
 import bowl from "../assets/svg/bowl.svg";
 import styled from "styled-components";
+import RecipeCard from "../components/RecipeCard";
 
 const Home = () => {
   return (
@@ -10,6 +11,9 @@ const Home = () => {
         <img src={header} alt="clarklake cookbook header" />
         <img className="bowl-svg" src={bowl} alt="" />
       </div>
+      <RecipeCard category="main" />
+      <RecipeCard category="dessert" />
+      <RecipeCard category="other" />
     </HomeStyle>
   );
 };

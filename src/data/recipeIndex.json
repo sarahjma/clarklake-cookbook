@@ -5,8 +5,8 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/midnight_pasta_sm_y34xux.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/midnight_pasta_lg_auoemb.jpg",
     "yield": "4 People",
-    "prepTime": "10 Minutes",
-    "cookTime": "10 Minutes",
+    "prepTime": 10,
+    "cookTime": 10,
     "ingredientsList": [
       "½ pound spaghetti",
       "Salt",
@@ -22,7 +22,8 @@
       "Put the spaghetti in a large pot of well-salted rapidly boiling water and cook only until firmly al dente. (Depending on the brand of pasta, this will be 8 to 10 minutes, but check frequently to see. )",
       "While the pasta is cooking, warm the olive oil in a small skillet over medium heat. Add the garlic and cook for about 1 minute, without letting it brown. Stir in the anchovies, capers and red pepper and cook for a half-minute more, then turn off the heat.",
       "Drain the pasta and return it to the pot. Pour in the garlic mixture, add the parsley, if using, and toss well to coat. Serve with grated Parmesan if desired."
-    ]
+    ],
+    "dietary": []
   },
   {
     "category": "dessert",
@@ -50,6 +51,10 @@
       "Add the flour to the bowl and stir until just-combined (do not over stir). Then gently fold in the chopped chocolate.",
       "Form little balls out of the dough and evenly distribute, about 5 cm (2 inches) apart, on a cookie sheet lined with baking paper. Pro tip: I like to reserve a bit of the chopped chocolate to sprinkle on the top for presentation.",
       "Bake for 12- 15 minutes, or until edges are lightly golden and the tops look set. Cool 1 minute on cooking sheet before transferring to cooling rack to cool completely."
+    ],
+    "dietary": [
+      "V",
+      "DF"
     ]
   },
   {
@@ -72,6 +77,10 @@
       "Combine basil leaves, pine nuts or walnuts and garlic in a food processor and process until very finely minced.",
       "With the machine running slowly dribble in the oil and process until the mixture is smooth.",
       "Add the cheese and process very briefly, just long enough to combine. Store in refrigerator or freezer."
+    ],
+    "dietary": [
+      "V",
+      "DF"
     ]
   }
 ]
