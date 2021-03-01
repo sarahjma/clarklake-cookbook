@@ -9,22 +9,41 @@ const Home = () => {
     <HomeStyle>
       <div className="header-img">
         <img src={header} alt="clarklake cookbook header" />
-        <img className="bowl-svg" src={bowl} alt="" />
+        <img
+          className="bowl-svg"
+          src={bowl}
+          alt="a bowl with chopsticks in it"
+        />
       </div>
       <div className="recipe-category">
-        <h2 className="category-title">Mains</h2>
+        <div className="header">
+          <h2 className="category-title">Mains</h2>
+          <a key="main" href="main" className="btn-cta">
+            All >>
+          </a>
+        </div>
         <div className="recipe-category-cards">
           <RecipeCard category="main" />
         </div>
       </div>
       <div className="recipe-category">
-        <h2 className="category-title">Desserts</h2>
+        <div className="header">
+          <h2 className="category-title">Desserts</h2>
+          <a key="dessert" href="dessert" className="btn-cta">
+            All >>
+          </a>
+        </div>
         <div className="recipe-category-cards">
           <RecipeCard category="dessert" />
         </div>
       </div>
       <div className="recipe-category">
-        <h2 className="category-title">Others</h2>
+        <div className="header">
+          <h2 className="category-title">Others</h2>
+          <a key="other" href="other" className="btn-cta">
+            All >>
+          </a>
+        </div>
         <div className="recipe-category-cards">
           <RecipeCard category="other" />
         </div>
@@ -48,6 +67,22 @@ const HomeStyle = styled.div`
   }
   .recipe-category {
     padding: 3em 0;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn-cta {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    padding: 0.2em 1em;
+    background-color: #3d7042;
+    color: white;
+    border-radius: 3px;
+    box-shadow: -7px 5px 20px -6px rgba(0, 0, 0, 0.34);
   }
   .category-title {
     font-size: 3em;

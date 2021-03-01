@@ -4,7 +4,7 @@
     "title": "Midnight Pasta",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/midnight_pasta_sm_y34xux.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/midnight_pasta_lg_auoemb.jpg",
-    "yield": "4 People",
+    "yield": 4,
     "prepTime": 10,
     "cookTime": 10,
     "ingredientsList": [
@@ -27,153 +27,188 @@
   },
   {
     "category": "main",
-    "title": "Midnight Pasta",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/midnight_pasta_sm_y34xux.jpg",
-    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/midnight_pasta_lg_auoemb.jpg",
-    "yield": "4 People",
-    "prepTime": 10,
-    "cookTime": 10,
+    "title": "Vietnamese Chicken Pho",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_pho_sm_fr7ukl.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_pho_lg_x3mr2h.jpg",
+    "yield": 4,
+    "prepTime": 20,
+    "cookTime": 30,
     "ingredientsList": [
-      "½ pound spaghetti",
-      "Salt",
-      "3 tablespoons extra virgin olive oil",
-      "4 garlic cloves, peeled and roughly chopped",
-      "4 anchovy filets, rinsed and roughly chopped",
-      "1 tablespoon capers, rinsed and roughly chopped",
-      "½ teaspoon red pepper flakes, or to taste",
-      "2 tablespoons chopped parsley, optional",
-      "Parmesan for grating, optional"
+      "1 onion, skin on, halved",
+      "4cm (2 inch) piece of ginger, skin on, halved",
+      "1 cinnamon stick",
+      "3 whole star anise",
+      "1 whole chicken",
+      "2 tsp sea salt, plus extra to taste",
+      "2 tbsp fish sauce, plus extra to taste",
+      "400g (14 oz) dried rice stick noodles",
+      "½ onion, finey sliced",
+      "¼ cup finely sliced spring onion",
+      "bean shoots",
+      "Thai basil leaves (substitute Italian basil if unavailable)",
+      "lime wedges",
+      "sliced red chilli"
     ],
     "directionsList": [
-      "Put the spaghetti in a large pot of well-salted rapidly boiling water and cook only until firmly al dente. (Depending on the brand of pasta, this will be 8 to 10 minutes, but check frequently to see. )",
-      "While the pasta is cooking, warm the olive oil in a small skillet over medium heat. Add the garlic and cook for about 1 minute, without letting it brown. Stir in the anchovies, capers and red pepper and cook for a half-minute more, then turn off the heat.",
-      "Drain the pasta and return it to the pot. Pour in the garlic mixture, add the parsley, if using, and toss well to coat. Serve with grated Parmesan if desired."
+      "Dry-roast the onion and ginger in a frying pan over high heat. Cook until the onion starts to blacken in some spots and the ginger is fragrant and starting to colour. Add the cinnamon stick and star anise and cook for a further minute or until fragrant. Remove from heat and set aside.",
+      "Place the chicken in a large pot. Cover with water and place over a medium-high heat. Add the onion, ginger, spices, salt and fish sauce. Bring to a gentle simmer. Use a ladle to scoop out and discard any foamy scum that rises to the surface. Then reduce the heat to low and gently simmer for one hour, removing the foam from time to time. Remove the chicken from the broth and place on a cutting board. You can test if the chicken is cooked by inserting a skewer into the thigh. The juices should run clear. If not, place the chicken back into the simmering broth and cook for another 15 minutes. When the chicken is cooked, sliced the meat and discard the bones. Set aside until ready to serve.",
+      "Strain the broth and pour it back into a clean saucepan over medium-high heat. Taste and season with extra salt and fish sauce (the amount of seasoning will depend on the amount of water you needed at the start). I find at least 1 teaspoon of each is usually needed for the best flavour.",
+      "To serve, cook the noodles in boiling water until tender and divide among serving bowls. Top with the chicken meat and slices of onion. Ladle over the hot broth. Add spring onion and bean shoots. Serve with basil leaves, lime wedges and chilli slices."
     ],
-    "dietary": []
+    "dietary": [
+      "GF",
+      "DF"
+    ]
   },
   {
     "category": "main",
-    "title": "Midnight Pasta",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/midnight_pasta_sm_y34xux.jpg",
-    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/midnight_pasta_lg_auoemb.jpg",
-    "yield": "4 People",
-    "prepTime": 10,
-    "cookTime": 10,
+    "title": "Kalguksu(Korean knife-cut noodles)",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/kalguksu_sm_k7f6mx.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/kalguksu_lg_cavihr.jpg",
+    "yield": 4,
+    "prepTime": 60,
+    "cookTime": 60,
     "ingredientsList": [
-      "½ pound spaghetti",
-      "Salt",
-      "3 tablespoons extra virgin olive oil",
-      "4 garlic cloves, peeled and roughly chopped",
-      "4 anchovy filets, rinsed and roughly chopped",
-      "1 tablespoon capers, rinsed and roughly chopped",
-      "½ teaspoon red pepper flakes, or to taste",
-      "2 tablespoons chopped parsley, optional",
-      "Parmesan for grating, optional"
+      "1 pound chicken breast",
+      "16 cups water",
+      "16 peeled garlic cloves (about ½ cup)",
+      "1 medium onion, cut into quarters",
+      "3½ cup all purpose flour, plus ⅓ cup flour to dust",
+      "½ cup potato starch",
+      "1 medium zucchini, cut into matchsticks (about 1½ cup)",
+      "2 green onions, chopped",
+      "vegetable oil",
+      "toasted sesame oil",
+      "kosher salt",
+      "fish sauce (or soup soy sauce)",
+      "ground black pepper"
     ],
     "directionsList": [
-      "Put the spaghetti in a large pot of well-salted rapidly boiling water and cook only until firmly al dente. (Depending on the brand of pasta, this will be 8 to 10 minutes, but check frequently to see. )",
-      "While the pasta is cooking, warm the olive oil in a small skillet over medium heat. Add the garlic and cook for about 1 minute, without letting it brown. Stir in the anchovies, capers and red pepper and cook for a half-minute more, then turn off the heat.",
-      "Drain the pasta and return it to the pot. Pour in the garlic mixture, add the parsley, if using, and toss well to coat. Serve with grated Parmesan if desired."
+      "Mix with a wooden spoon to form a lump. Knead it by hand until it forms as ball. Put it into a plastic bag, seal it, and let it sit in the fridge or on the kitchen counter for 10 minutes.",
+      "Combine flour, starch, 1 teaspoon kosher salt, 2 tablespoons vegetable oil, and 1¼ cup water in a large bowl.",
+      "Take the dough out of the plastic bag, knead it for 2 to 5 minutes, and then put it back in. Kneading it in stages like this, and storing it in the plastic bag between sessions will make it soft and pliable with a minimum of effort.",
+      "Put water, chicken breast, garlic, and onion in a large stock pot and boil for 1 hour over high heat.",
+      "Combine the zucchini matchsticks with ¼ teaspoon kosher salt and set aside for 5 to 10 minutes.",
+      "Squeeze the excess water out by hand and sautee with a few drops of vegetable oil in a pan. Set aside.",
+      "After an hour of boiling, remove from the heat. Strain. The stock will be about 13 cups at this point and it should look clear but a little milky.",
+      "Add 1 tablespoon kosher salt and 2 teaspoons fish sauce (or soup soy sauce) or to taste. Mix well and put it back to the stock pot. Set aside.",
+      "Collect the cooked garlic into a small bowl and mash it with a spoon. Add 1 teaspoon kosher salt, ½ teaspoon ground black pepper, and 2 teaspoons toasted sesame oil. Mix well and set aside.",
+      "Pull the chicken into thin strips with your fingers and mix it in with the garlic mixture. Set aside",
+      "Take out the dough and knead it again for a couple of minutes until it’s really smooth. Divide the dough into 2 balls.",
+      "Dust a large cutting board or clean kitchen table with flour and put the dough on it. Roll it out with a rolling pin to a circle about 18 inches wide and 1/16 inch thick (1 or 2 mm). Flip it over occasionally to make it even, round, and flat. If you need to, sprinkle some flour on it when you flip, to keep it from sticking.",
+      "Evenly spread some flour on the dough, and fold it over 3 or 4 times. Cut it into thin noodles, about 1/8 inch thick. Sprinkle some flour on them, and gently mix them up to separate them and spread the flour evenly.",
+      "Make noodles with the other ball of dough but repeating the steps above.",
+      "Bring the stock to a boil and add the noodles. Stir with a wooden spoon and cover.",
+      "Cook for 4 to 6 minutes until all the noodles float and some bubbles form on the surface. Remove from the heat.",
+      "Ladle into large individual bowls. Put some zucchini on the center of each bowl and add some chicken. Sprinkle some chopped green onion over top, and serve immediately with kimchi and few more side dishes if you have them.",
+      "To make spicy version, combine 2 table spoons hot pepper flakes and 2 teaspoons toasted sesame oil in a small bowl. Mix well and serve. When you eat, add some of the mixture to your noodle soup and eat."
+    ],
+    "dietary": [
+      "DF"
+    ]
+  },
+  {
+    "category": "dessert",
+    "title": "Vegan Chocolate Chip Cookies",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/vegan_chocolate_chip_cookies_sm_sbuw2o.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_chocolate_chip_cookies_lg_tsnbwl.jpg",
+    "yield": "18-20 Cookies",
+    "prepTime": "10 Minutes",
+    "cookTime": "15 Minutes",
+    "ingredientsList": [
+      "1/2 cup (105 g) refined coconut oil, packed, not melted*",
+      "2/3 cup (140 g) brown sugar, packed",
+      "3 Tbsp (45 mL) maple syrup",
+      "6 Tbsp (90 mL) plant-based milk ",
+      "1 Tbsp (15 mL) pure vanilla extract",
+      "1 tsp (4 g) baking powder",
+      "3/4 tsp (3 g) baking soda",
+      "1/2 tsp salt",
+      "2 cups (250 g) all-purpose flour",
+      "1 cup (150 g) dairy-free dark chocolate, chopped*"
+    ],
+    "directionsList": [
+      "Preheat the oven to 350 F/ 180 C.",
+      "Using a fork, cream together the coconut oil and brown sugar in a large bowl. Then add the maple syrup and mix until well combined. Add the milk, vanilla, baking soda, baking powder and salt and again whisk until well combined. If the mixture looks clumpy, it’s okay! Note: if the temperature is warm where you are, you may want to consider chilling this mixture in the fridge for 30 minutes to firm up; otherwise the cookies flatten and spread too much when baking in the oven.",
+      "Add the flour to the bowl and stir until just-combined (do not over stir). Then gently fold in the chopped chocolate.",
+      "Form little balls out of the dough and evenly distribute, about 5 cm (2 inches) apart, on a cookie sheet lined with baking paper. Pro tip: I like to reserve a bit of the chopped chocolate to sprinkle on the top for presentation.",
+      "Bake for 12- 15 minutes, or until edges are lightly golden and the tops look set. Cool 1 minute on cooking sheet before transferring to cooling rack to cool completely."
+    ],
+    "dietary": [
+      "V",
+      "DF"
+    ]
+  },
+  {
+    "category": "dessert",
+    "title": "Banana Bread",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/banana_bread_sm_ndxqez.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627567/clarklake_cookbook/banana_bread_lg_epwxub.jpg",
+    "yield": 9,
+    "prepTime": 10,
+    "cookTime": 40,
+    "ingredientsList": [
+      "2 spotty bananas (bananas that have more black spots have higher alkalin)",
+      "2 cage-free pasteurized eggs",
+      "1/2 cup of gluten-free rolled oats blended into flour",
+      "1 1/3 cup almond flour",
+      "1/3 cup maple syrup",
+      "1/4 cup coconut oil",
+      "1 tsp baking so",
+      "1/2 tsp baking powder",
+      "1 tsp cinnamon",
+      "1 tsp pure vanilla extract",
+      "1/3 full cup of dark chocolate chips"
+    ],
+    "directionsList": [
+      "Whisk all wet ingredients until smooth.",
+      "Add in the dry ingredients and mix well to combine",
+      "Fold in chocolate chips",
+      "Bake 350F for 35-40 mins."
+    ],
+    "dietary": [
+      "V",
+      "GF"
+    ]
+  },
+  {
+    "category": "dessert",
+    "title": "Classic Cheesecake",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627565/clarklake_cookbook/cheesecake_sm_gr2a0a.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/cheesecake_lg_yrpvyx.jpg",
+    "yield": 10,
+    "prepTime": 10,
+    "cookTime": 60,
+    "ingredientsList": [
+      "16 Graham Crackers more if you'd like a thicker crust",
+      "1 cup pecans 70g, toasted",
+      "4 tbsp unsalted butter 56g, melted",
+      "1/4 cup sugar 24g",
+      "1/2 tsp cinnamon 1g",
+      "2 1/2 pounds cream cheese 1.13kg, room temperature, 4.5 packages",
+      "1/2 tsp salt",
+      "1 3/4 cups sugar 350g",
+      "2 tsp vanilla extract 10mL",
+      "5 eggs large, room temperature",
+      "2 egg yolks",
+      "3/4 cup sour cream",
+      "3 tbsp All purpose flour"
+    ],
+    "directionsList": [
+      "Preheat oven to 350F.",
+      "Add Graham crackers and toasted pecans to your food processor and pulse until broken into small pieces. Add sugar and cinnamon then pulse until mixed in completely. Pour in melted butter while pulsing processor. Remove blades and use a spatula to mix butter in completely. See post above for instructions on making this without a processor or stand mixer.",
+      "Transfer mixture to your springform pan and spread our with a spatula so the crumbs are evenly distributed on the bottom and toward the side as well. Press into a flat layer using a tall glass and really try to compact the side to it keeps it's shape after cutting. Bake for about 10-15 minutes at 350, or until fragrant and a darker golden color. Remove from oven, set aside.",
+      "Add ROOM TEMPERATURE cream cheese to stand mixer fitted with a whisk attachment and mix at medium speed to cream.",
+      "Add the sugar and the salt to the bowl and mix on medium until creamy. Scrape bowl down and mix until completely homogenous.",
+      "Add sour cream and vanilla extract, mix well then add the eggs and yolks one at a time, allowing each to incorporate before adding the next. Sprinkle in the flour and continue to mix. Scrape the bowl down and mix until completely smooth.",
+      "Pour the batter into the foil-wrapped 10 inch springform pan. The batter will not rise much at all during this low and slow bake so you can fill it up almost to the top. If you're using an 8inch pan then you will have some extra batter for individual/mini cheesecakes, which you can bake in cupcake papers.",
+      "Place springform pan into a large roasting pan or on a baking sheet (this makes sure there are no leaks and it's easier to remover from the oven.",
+      "Bake at 350F for 20 minutes then reduce temperature to 300F and bake another 40 minutes or until cake's edge is set but center is still wobbly. Turn oven off but leave door closed and allow cake to rest for an additional hour in the oven. Remove from oven and cool to room temperature then cover with a towel or paper towel and chill overnight. You can enjoy the cheesecake after a few hours of chilling but it's MUCH easier to cut if you've chilled it overnight.",
+      "You can garnish the cake with dollops of whipped cream, berries, or enjoy plain."
     ],
     "dietary": []
   },
   {
-    "category": "dessert",
-    "title": "Vegan Chocolate Chip Cookies",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/vegan_chocolate_chip_cookies_sm_sbuw2o.jpg",
-    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_chocolate_chip_cookies_lg_tsnbwl.jpg",
-    "yield": "18-20 Cookies",
-    "prepTime": "10 Minutes",
-    "cookTime": "15 Minutes",
-    "ingredientsList": [
-      "1/2 cup (105 g) refined coconut oil, packed, not melted*",
-      "2/3 cup (140 g) brown sugar, packed",
-      "3 Tbsp (45 mL) maple syrup",
-      "6 Tbsp (90 mL) plant-based milk ",
-      "1 Tbsp (15 mL) pure vanilla extract",
-      "1 tsp (4 g) baking powder",
-      "3/4 tsp (3 g) baking soda",
-      "1/2 tsp salt",
-      "2 cups (250 g) all-purpose flour",
-      "1 cup (150 g) dairy-free dark chocolate, chopped*"
-    ],
-    "directionsList": [
-      "Preheat the oven to 350 F/ 180 C.",
-      "Using a fork, cream together the coconut oil and brown sugar in a large bowl. Then add the maple syrup and mix until well combined. Add the milk, vanilla, baking soda, baking powder and salt and again whisk until well combined. If the mixture looks clumpy, it’s okay! Note: if the temperature is warm where you are, you may want to consider chilling this mixture in the fridge for 30 minutes to firm up; otherwise the cookies flatten and spread too much when baking in the oven.",
-      "Add the flour to the bowl and stir until just-combined (do not over stir). Then gently fold in the chopped chocolate.",
-      "Form little balls out of the dough and evenly distribute, about 5 cm (2 inches) apart, on a cookie sheet lined with baking paper. Pro tip: I like to reserve a bit of the chopped chocolate to sprinkle on the top for presentation.",
-      "Bake for 12- 15 minutes, or until edges are lightly golden and the tops look set. Cool 1 minute on cooking sheet before transferring to cooling rack to cool completely."
-    ],
-    "dietary": [
-      "V",
-      "DF"
-    ]
-  },
-  {
-    "category": "dessert",
-    "title": "Vegan Chocolate Chip Cookies",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/vegan_chocolate_chip_cookies_sm_sbuw2o.jpg",
-    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_chocolate_chip_cookies_lg_tsnbwl.jpg",
-    "yield": "18-20 Cookies",
-    "prepTime": "10 Minutes",
-    "cookTime": "15 Minutes",
-    "ingredientsList": [
-      "1/2 cup (105 g) refined coconut oil, packed, not melted*",
-      "2/3 cup (140 g) brown sugar, packed",
-      "3 Tbsp (45 mL) maple syrup",
-      "6 Tbsp (90 mL) plant-based milk ",
-      "1 Tbsp (15 mL) pure vanilla extract",
-      "1 tsp (4 g) baking powder",
-      "3/4 tsp (3 g) baking soda",
-      "1/2 tsp salt",
-      "2 cups (250 g) all-purpose flour",
-      "1 cup (150 g) dairy-free dark chocolate, chopped*"
-    ],
-    "directionsList": [
-      "Preheat the oven to 350 F/ 180 C.",
-      "Using a fork, cream together the coconut oil and brown sugar in a large bowl. Then add the maple syrup and mix until well combined. Add the milk, vanilla, baking soda, baking powder and salt and again whisk until well combined. If the mixture looks clumpy, it’s okay! Note: if the temperature is warm where you are, you may want to consider chilling this mixture in the fridge for 30 minutes to firm up; otherwise the cookies flatten and spread too much when baking in the oven.",
-      "Add the flour to the bowl and stir until just-combined (do not over stir). Then gently fold in the chopped chocolate.",
-      "Form little balls out of the dough and evenly distribute, about 5 cm (2 inches) apart, on a cookie sheet lined with baking paper. Pro tip: I like to reserve a bit of the chopped chocolate to sprinkle on the top for presentation.",
-      "Bake for 12- 15 minutes, or until edges are lightly golden and the tops look set. Cool 1 minute on cooking sheet before transferring to cooling rack to cool completely."
-    ],
-    "dietary": [
-      "V",
-      "DF"
-    ]
-  },
-  {
-    "category": "dessert",
-    "title": "Vegan Chocolate Chip Cookies",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/vegan_chocolate_chip_cookies_sm_sbuw2o.jpg",
-    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_chocolate_chip_cookies_lg_tsnbwl.jpg",
-    "yield": "18-20 Cookies",
-    "prepTime": "10 Minutes",
-    "cookTime": "15 Minutes",
-    "ingredientsList": [
-      "1/2 cup (105 g) refined coconut oil, packed, not melted*",
-      "2/3 cup (140 g) brown sugar, packed",
-      "3 Tbsp (45 mL) maple syrup",
-      "6 Tbsp (90 mL) plant-based milk ",
-      "1 Tbsp (15 mL) pure vanilla extract",
-      "1 tsp (4 g) baking powder",
-      "3/4 tsp (3 g) baking soda",
-      "1/2 tsp salt",
-      "2 cups (250 g) all-purpose flour",
-      "1 cup (150 g) dairy-free dark chocolate, chopped*"
-    ],
-    "directionsList": [
-      "Preheat the oven to 350 F/ 180 C.",
-      "Using a fork, cream together the coconut oil and brown sugar in a large bowl. Then add the maple syrup and mix until well combined. Add the milk, vanilla, baking soda, baking powder and salt and again whisk until well combined. If the mixture looks clumpy, it’s okay! Note: if the temperature is warm where you are, you may want to consider chilling this mixture in the fridge for 30 minutes to firm up; otherwise the cookies flatten and spread too much when baking in the oven.",
-      "Add the flour to the bowl and stir until just-combined (do not over stir). Then gently fold in the chopped chocolate.",
-      "Form little balls out of the dough and evenly distribute, about 5 cm (2 inches) apart, on a cookie sheet lined with baking paper. Pro tip: I like to reserve a bit of the chopped chocolate to sprinkle on the top for presentation.",
-      "Bake for 12- 15 minutes, or until edges are lightly golden and the tops look set. Cool 1 minute on cooking sheet before transferring to cooling rack to cool completely."
-    ],
-    "dietary": [
-      "V",
-      "DF"
-    ]
-  },
-  {
     "category": "other",
     "title": "Classic Pesto",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/pesto_sm_vgvcoi.jpg",
@@ -201,54 +236,67 @@
   },
   {
     "category": "other",
-    "title": "Classic Pesto",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/pesto_sm_vgvcoi.jpg",
-    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/pesto_lg_pposac.jpg",
-    "yield": "2 Cups",
-    "prepTime": "15 Minutes",
-    "cookTime": "0 Minutes",
+    "title": "Focaccia Bread",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/focaccia_sm_ct1mqb.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/focaccia_lg_a4w95i.jpg",
+    "yield": 30,
+    "prepTime": "4 Hours",
+    "cookTime": "35 Minutes",
     "ingredientsList": [
-      "2 cups fresh basil leaves (no stems)",
-      "2 tablespoons pine nuts",
-      "2 large cloves garlic",
-      "½ cup extra-virgin olive oil",
-      "½ cup freshly grated parmesan cheese",
-      "Salt to taste"
+      "6¼ cups bread flour (30 oz. or 850g)",
+      "2¼ tsp. active dry yeast (from one ¼-oz. packet)",
+      "Pinch of sugar",
+      "2 Tbsp. Diamond Crystal or 1 Tbsp. Morton kosher salt",
+      "5 Tbsp. extra-virgin olive oil, divided, plus more for greasing and drizzling",
+      "Flaky sea salt"
     ],
     "directionsList": [
-      "Combine basil leaves, pine nuts or walnuts and garlic in a food processor and process until very finely minced.",
-      "With the machine running slowly dribble in the oil and process until the mixture is smooth.",
-      "Add the cheese and process very briefly, just long enough to combine. Store in refrigerator or freezer."
+      "Combine flour and 2½ cups room-temperature water in the bowl of a stand mixer fitted with the dough hook. Mix on low speed, scraping down sides and hook as needed to incorporate any dry flour, until a shaggy dough forms. Remove dough hook and cover bowl with plastic. Let sit while you prepare the yeast (you can leave the dough in this state up to 2 hours).",
+      "Stir yeast, sugar, and ½ cup warm water with a fork in a small bowl to dissolve. Let sit until yeast is foamy, about 5 minutes.",
+      "Pour yeast mixture into stand mixer bowl and mix on low speed until dough absorbs all additional water, about 1 minute (pulse mixer on and off a couple of times at very beginning to prevent liquid from splashing over the sides). Add kosher salt and continue to mix, increasing speed to medium, until dough is extremely elastic and very sticky (it will look more like a thick batter and will stick to sides of bowl), about 5 minutes.",
+      "Pour 3 Tbsp. oil into a large (preferably glass) bowl and swirl to coat sides. Scrape in dough with a large spatula or flexible bench scraper. Cover and place in a warm spot until dough is doubled in volume, 2–3 hours. If using a glass bowl, it’s helpful to mark the position of the dough at the beginning so you can accurately assess the rise (a dry-erase marker or piece of tape works).",
+      "Drizzle 2 Tbsp. oil over a 18x13inch sheet pan and use fingertips to rub all over bottom and sides. Using large spatula or flexible bench scraper, fold dough inside bowl a couple of times to deflate, then scrape onto prepared baking sheet. Using oiled hands, lift up dough and fold over onto itself in half, then rotate baking sheet 90° and fold in half again. Cover dough with a piece of well-oiled plastic and let rest 10 minutes to let gluten relax.",
+      "Uncover and go back in with oiled hands, gently stretching dough (to avoid tearing) across length and width of baking sheet in an even layer, working all the way to edges and into corners. If dough starts to spring back, let sit 5–10 minutes and start again. Cover again with same piece of oiled plastic and chill at least 8 hours and up to 24.",
+      "Let sheet pan sit in a warm spot until dough is puffed and bubbly and nearly doubled in height, 45–65 minutes (if you’re using a standard half sheet pan, it will have risen to the very top of the sides). Meanwhile, place a rack in center of oven; preheat to 450°.",
+      "Remove plastic and drizzle dough generously with more oil. Oil hands again and press fingertips firmly into dough, pushing down all the way to bottom of pan to dimple all over. Sprinkle generously with sea salt.",
+      "Bake focaccia until surface is deep golden brown all over, 25–35 minutes. Let cool in pan 10 minutes. Slide a thin metal spatula underneath focaccia to loosen from sheet pan (it may stick in a couple of places, so use some elbow grease to get underneath) and transfer to a wire rack. Let cool completely before cutting as desired.",
+      "Do Ahead: Focaccia can be baked 1 day ahead. Tightly wrap in plastic and store at room temperature."
     ],
     "dietary": [
+      "VG",
       "V",
       "DF"
     ]
   },
   {
     "category": "other",
-    "title": "Classic Pesto",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/pesto_sm_vgvcoi.jpg",
-    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/pesto_lg_pposac.jpg",
-    "yield": "2 Cups",
-    "prepTime": "15 Minutes",
-    "cookTime": "0 Minutes",
+    "title": "Thanksgiving Stuffing",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/stuffing_sm_dvd1sf.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627567/clarklake_cookbook/stuffing_lg_qrdlue.jpg",
+    "yield": 8,
+    "prepTime": 25,
+    "cookTime": 60,
     "ingredientsList": [
-      "2 cups fresh basil leaves (no stems)",
-      "2 tablespoons pine nuts",
-      "2 large cloves garlic",
-      "½ cup extra-virgin olive oil",
-      "½ cup freshly grated parmesan cheese",
-      "Salt to taste"
+      "2 baguettes, country, or sourdough bread (1 pound)",
+      "8 tbsp. butter, plus more for baking dish",
+      "1 large onion, diced (about 2 1/4 cups)",
+      "4 stalks celery, thinly sliced",
+      "2 cloves garlic, minced",
+      "1/2 c. freshly chopped parsley",
+      "1 tbsp. freshly chopped sage, minced",
+      "1 tbsp. fresh thyme leaves, minced",
+      "1/2 tbsp. freshly chopped rosemary",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "4 c. low-sodium chicken (or vegetable) broth",
+      "2 large eggs, beaten"
     ],
     "directionsList": [
-      "Combine basil leaves, pine nuts or walnuts and garlic in a food processor and process until very finely minced.",
-      "With the machine running slowly dribble in the oil and process until the mixture is smooth.",
-      "Add the cheese and process very briefly, just long enough to combine. Store in refrigerator or freezer."
+      "The day before: Tear or slice bread into 1/4inch cubes and leave out overnight to dry out. (Alternately, place bread on baking sheets and bake at 200º for 20 minutes.)",
+      "When you're ready to make the stuffing: Preheat oven to 350º and butter a large baking dish. In a large skillet over medium heat, melt butter. Add onion and celery and cook until soft and fragrant, 8 minutes. Stir in garlic, parsley, sage, thyme, and rosemary and cook until fragrant, 1 minute more. Season with salt and pepper. ",
+      "Place bread in a large bowl and add skillet mixture. Toss to combine. In a medium bowl, whisk together chicken broth and beaten eggs and pour over bread mixture. Season generously with salt and pepper and toss until completely coated.",
+      "Transfer mixture to prepared baking dish and cover with foil. Bake until cooked through, 45 minutes, then remove foil and cook until bread is golden, 15 to 20 minutes more."
     ],
-    "dietary": [
-      "V",
-      "DF"
-    ]
+    "dietary": []
   }
 ]
