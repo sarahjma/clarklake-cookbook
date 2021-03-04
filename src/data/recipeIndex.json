@@ -1,6 +1,7 @@
 [
   {
     "category": "main",
+    "url": "/main/midnight_pasta",
     "title": "Midnight Pasta",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/midnight_pasta_sm_y34xux.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/midnight_pasta_lg_auoemb.jpg",
@@ -27,6 +28,7 @@
   },
   {
     "category": "main",
+    "url": "/main/chicken_pho",
     "title": "Vietnamese Chicken Pho",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_pho_sm_fr7ukl.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_pho_lg_x3mr2h.jpg",
@@ -62,6 +64,7 @@
   },
   {
     "category": "main",
+    "url": "/main/kalguksu",
     "title": "Kalguksu(Korean knife-cut noodles)",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/kalguksu_sm_k7f6mx.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/kalguksu_lg_cavihr.jpg",
@@ -108,7 +111,133 @@
     ]
   },
   {
+    "category": "main",
+    "url": "/main/moo_shu_mushrooms",
+    "title": "Moo Shu Mushrooms",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/mooshu_chicken_sm_sjqpeq.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/mushoo_chicken_lg_zmh2af.jpg",
+    "yield": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "ingredientsList": [
+      " ⅓ cup dried Chinese wood ear mushrooms (about 10 grams)",
+      "¼ packed cup dried day lily buds (about 15 grams)",
+      "1 tablespoon Shaoxing wine or dry sherry",
+      "1 tablespoon light soy sauce or shoyu",
+      "1 teaspoon cornstarch",
+      "½ teaspoon white pepper, plus more as needed",
+      "Kosher salt",
+      "2 ounces pork loin, pork sirloin, chicken breast or extra-firm tofu, cut into 1 1/2- to 2-inch slivers",
+      "4 tablespoons roasted sesame oil",
+      "3 eggs, thoroughly beaten with a pinch of salt",
+      "2 slices fresh ginger",
+      "½ pound mixed sliced fresh mushrooms, preferably Asian mushrooms such as shimeji, shiitake, enoki, oyster or maitake",
+      "2 scallions, thinly sliced on a sharp bias",
+      "¼ teaspoon MSG (optional)"
+    ],
+    "directionsList": [
+      "Rehydrate the dried ingredients for the filling: Place wood ear mushrooms and day lily buds in two separate medium bowls or measuring cups large enough to allow for them to expand about fourfold. Cover with very hot water, and set aside until rehydrated, about 15 minutes. (I use hot tap water, but you could also use water heated on the stovetop or in the microwave.) Drain thoroughly. Remove tough centers from the wood ears, then thinly slice them. Cut day lilies into 2-inch pieces.",
+      "While wood ears and day lilies rehydrate, prepare the pork marinade: Combine 1/2 teaspoon Shaoxing wine, 1/2 teaspoon soy sauce, 1/2 teaspoon cornstarch, 1/4 teaspoon white pepper and a pinch of kosher salt in a medium bowl, and whisk with a fork to combine. Add pork and stir roughly with fingertips or chopsticks until thoroughly combined, then continue stirring for 10 seconds. Set aside for 15 minutes at room temperature.",
+      "Meanwhile, make the sauce: Combine remaining 2 1/2 teaspoons Shaoxing wine, 2 1/2 teaspoons soy sauce, 1/2 teaspoon cornstarch and 1/4 teaspoon white pepper in a small bowl and whisk with a fork until no lumps remain.",
+      "Cook the eggs: Heat wok over high until lightly smoking. Add 2 tablespoons oil and swirl to coat. Pour the beaten eggs into the center and cook without moving for 10 seconds. Continue to cook, breaking up the eggs with a spatula until they are barely set, 30 to 45 seconds. Transfer eggs to a large bowl.",
+      "Wipe out wok and return to high heat until lightly smoking. Add 1 tablespoon sesame oil and swirl to coat. Add 1 ginger slice and let sizzle for 5 seconds. Immediately add pork and stir-fry until pork is no longer pink and mostly cooked through, about 1 minute. Discard ginger slice, then transfer pork to bowl with eggs.",
+      "Wipe out wok and return to high heat until lightly smoking. Add remaining 1 tablespoon oil and swirl to coat. Add remaining ginger slice and let sizzle for 5 seconds. Immediately add the fresh mushrooms and stir-fry until mushrooms are lightly browned around the edges, 2 to 3 minutes. Add scallions, sliced wood ears and day lilies, and stir-fry until softened and fragrant, about 30 seconds.",
+      "Add the pork and eggs back to the wok. Stir sauce to combine again, then add it to the wok along with the MSG, if using. Stir-fry everything to combine and season to taste with salt and more white pepper, if desired. Discard ginger. Transfer moo shu mixture to a serving platter and serve immediately with Mandarin pancakes and hoisin sauce."
+    ],
+    "dietary": [
+      "V"
+    ]
+  },
+  {
+    "category": "main",
+    "url": "/main/vegan_curry_noodle_soup",
+    "title": "Vegan Curry Noodle Soup",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463286/clarklake_cookbook/vegan_green_curry_noodle_soup_sm_tf0jtp.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_green_curry_noodle_soup_lg_ewbev8.jpg",
+    "yield": 4,
+    "prepTime": 5,
+    "cookTime": 25,
+    "ingredientsList": [
+      "2 tsp (10 mL) vegetable oil",
+      "1 block (375 g) extra-firm tofu, pressed, cut into 1 cm cubes",
+      "¼ tsp salt",
+      "1 can (400 mL) full-fat coconut milk ",
+      "1 vegetable bouillon cube ",
+      "2 cups (480 mL) cold water ",
+      "1 cup (30 g) fresh spinach, packed",
+      "⅓ cup (10 g) fresh basil, packed ",
+      "4 blocks (180 g) rice noodles",
+      "1 tsp (5 mL) vegetable oil",
+      "4 cloves garlic, thinly sliced",
+      "1 large shallot, finely chopped",
+      "3 Tbsp (45 g) vegan Thai green curry paste",
+      "4 inch stalk of lemongrass, smashed (optional)",
+      "3 dry kaffir lime leaves (optional)",
+      "1 tsp (5 g) freshly grated ginger (optional)",
+      "1 medium bell pepper, thinly sliced (we used a yellow bell pepper)",
+      "1½ cups (150 g) snow peas",
+      "½ lime, juiced",
+      "Fresh basil leaves ",
+      "Lime wedges",
+      "Bean sprouts",
+      "Chili flakes"
+    ],
+    "directionsList": [
+      "To make the tofu: to a large pan on medium-high heat, add the oil. When hot, add the tofu cubes and sprinkle overtop the salt. The salt helps to draw the water out of the tofu and helps it cook faster. Try not to disturb the tofu too much, only toss every 1 - 2 minutes, until golden on all sides, about 7 - 10 minutes.",
+      "To make the green broth: to a blender, add the coconut milk, bouillon cube, water, spinach, and basil. Blend on high until smooth.",
+      "To a large bowl, add the brown rice noodles and pour boiling water overtop to submerge. Drain after 2 minutes, once the noodles are al dente. Note: refer to package instructions as you may need to cook your noodles differently. Once drained, rinse under warm water to remove the out layer of starch that makes the noodles stick together. Divide the noodles over your bowls.",
+      "Once the tofu is golden and crispy on all sides, transfer to a bowl and set aside.",
+      "Return the same pan to the heat and add the oil. When hot, add the garlic and shallots and cook until lightly golden, about 3 minutes.",
+      "Add the curry paste, lemongrass, kaffir leaves, and ginger. Sauté for a minute.",
+      "Add the bell pepper, and cook for an extra 3 minutes.",
+      "Add the snow peas and cook for only 30 seconds, before transferring the green blended broth to the pan. Allow this to come to a gentle simmer, and then remove from the heat once heated through. ",
+      "Remove the lemongrass and kaffir leaves before serving.",
+      "Finally, squeeze in the lime juice, stir, and then ladle the broth overtop the noodles.",
+      "Add the tofu to the top of the bowl, and add any desired garnishes. Enjoy!"
+    ],
+    "dietary": [
+      "V",
+      "VG",
+      "DF",
+      "GF"
+    ]
+  },
+  {
+    "category": "main",
+    "url": "/main/chicken_kebab",
+    "title": "Chicken Kebab",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462281/clarklake_cookbook/chicken_kebab_sm_wsqeo0.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_kebab_lg_qcyvna.jpg",
+    "yield": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "ingredientsList": [
+      "1 lb chicken thighs or breasts cut into bite sizes",
+      "1/4 cup olive oil",
+      "1/3 cup soy sauce",
+      "1/4 cup honey",
+      "1 teaspoon minced garlic",
+      "salt and pepper to taste",
+      "2 bell pepper",
+      "1 large onion",
+      "1 zucchini"
+    ],
+    "directionsList": [
+      "Place the olive oil, soy sauce, honey, garlic and salt and pepper in a large bowl",
+      "Whisk to combine",
+      "Add the chicken, bell peppers, zucchini and onion to the bowl. Toss to coat in the marinade and set aside.",
+      "Soak wooden skewers in cold water until grill is ready. Preheat grill",
+      "Thread chicken and vegetables on skewers",
+      "When grill is ready, cook for 5-7 minutes on each side or until chicken is cooked through."
+    ],
+    "dietary": [
+      "DF",
+      "GF"
+    ]
+  },
+  {
     "category": "dessert",
+    "url": "/dessert/vegan_ccc",
     "title": "Vegan Chocolate Chip Cookies",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/vegan_chocolate_chip_cookies_sm_sbuw2o.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_chocolate_chip_cookies_lg_tsnbwl.jpg",
@@ -141,6 +270,7 @@
   },
   {
     "category": "dessert",
+    "url": "/dessert/banana_bread",
     "title": "Banana Bread",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/banana_bread_sm_ndxqez.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627567/clarklake_cookbook/banana_bread_lg_epwxub.jpg",
@@ -173,6 +303,7 @@
   },
   {
     "category": "dessert",
+    "url": "/dessert/classic_cheesecake",
     "title": "Classic Cheesecake",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627565/clarklake_cookbook/cheesecake_sm_gr2a0a.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/cheesecake_lg_yrpvyx.jpg",
@@ -206,10 +337,160 @@
       "Bake at 350F for 20 minutes then reduce temperature to 300F and bake another 40 minutes or until cake's edge is set but center is still wobbly. Turn oven off but leave door closed and allow cake to rest for an additional hour in the oven. Remove from oven and cool to room temperature then cover with a towel or paper towel and chill overnight. You can enjoy the cheesecake after a few hours of chilling but it's MUCH easier to cut if you've chilled it overnight.",
       "You can garnish the cake with dollops of whipped cream, berries, or enjoy plain."
     ],
-    "dietary": []
+    "dietary": [
+      "V"
+    ]
+  },
+  {
+    "category": "dessert",
+    "url": "/dessert/pasteis_de_nata",
+    "title": "Pastéis de Nata",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874541/clarklake_cookbook/paste%CC%81is_de_nata_sm_umioqd.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874542/clarklake_cookbook/paste%CC%81i_de_nata_lg_pkdbfj.jpg",
+    "yield": "12 Tarts",
+    "prepTime": 60,
+    "cookTime": "2H 30M",
+    "ingredientsList": [
+      "For the pastry...",
+      "290g plain flour",
+      "1/4 tsp salt",
+      "210ml water",
+      "240g very soft unsalted butter",
+      "extra flour for dusting",
+      "40g plain flour",
+      "50ml milk",
+      "165ml water",
+      "240g caster sugar",
+      "1 cinnamon stick",
+      "another 250ml milk"
+    ],
+    "directionsList": [
+      "In a stand mixer fitted with a dough hook, mix the flour, salt, and water until a soft, pillowy dough forms that pulls away from the side of the bowl, about 30 seconds.",
+      "Generously flour a work surface and pat the dough into a 6-inch (15-cm) square using a pastry scraper. Flour the dough, cover with plastic wrap, and let it rest at room temperature for 15 minutes.      ",
+      "Roll the dough into an 18-inch (46-cm) square. As you work, use the scraper to lift the dough to make sure the underside isn’t sticking to your work surface.      ",
+      "Brush the excess flour off the top of the dough, trim any uneven edges, and, using a small offset spatula, dot and then spread the left 2/3 portion of the dough with a little less than 1/3 of the butter being careful to leave a 1 inch (25 mm) plain border around the edge of the dough.      ",
+      "Neatly fold the unbuttered right 1/3 of the dough (using the pastry scraper to loosen it if it sticks) over the rest of the dough. Brush off any excess flour, then fold over the left 1/3 of the dough. Starting from the top, pat down the dough with your hand to release any air bubbles, and then pinch the edges of the dough to seal. Brush off any excess flour.      ",
+      "Turn the dough 90° to the left so the fold is facing you. Lift the dough and flour the work surface. Once again roll it out to an 18-inch (46-cm) square, then dot the left 2/3 of the dough with 1/3 of the butter and smear it over the dough. Fold the dough as directed in steps 4 and 5.    ",
+      "For the last rolling, turn the dough 90° to the left and roll out the dough to an 18-by-21-inch (46-by-53-cm) rectangle, with the shorter side facing you. Spread the remaining butter over the entire surface of the dough.    ",
+      "Using the spatula as an aid, lift the edge of dough closest to you and roll the dough away from you into a tight log, brushing the excess flour from the underside as you go. Trim the ends and cut the log in half. Wrap each piece in plastic wrap and chill for 2 hours or preferably overnight. (The pastry can be frozen for up to 3 months.)    ",
+      "In a medium bowl, whisk the flour and 1/4 cup milk (60 ml) until smooth.     ",
+      "Bring the sugar, cinnamon, and water to a boil in a small saucepan and cook until an instant-read thermometer registers 220°F (104°C). Do not stir.     ",
+      "Meanwhile, in another small saucepan, scald the remaining 1 cup milk (237 ml). Whisk the hot milk into the flour mixture.     ",
+      "Remove the cinnamon stick and then pour the sugar syrup in a thin stream into the hot milk-and-flour mixture, whisking briskly. Add the vanilla and stir for a minute until very warm but not hot. Whisk in the yolks, strain the mixture into a bowl, cover with plastic wrap, and set aside. The custard will be thin; that is as it should be. (You can refrigerate the custard for up to 3 days.)    ",
+      "Assemble and bake the pastries",
+      "Place an oven rack in the top third position and heat the oven to 550°F (290°C). Remove a pastry log from the refrigerator and roll it back and forth on a lightly floured surface until it’s about an inch (25 mm) in diameter and 16 inches (41 cm) long. Cut it into scant 3/4-inch (18-mm) pieces. Place 1 piece pastry dough, cut side down, in each well of a nonstick 12-cup mini-muffin pan (2-by-5/8-inch [50-by-15-mm] size). If using classic tins, cut the dough into generous 1-inch (25-mm) pieces. Allow the dough pieces to soften several minutes until pliable.    ",
+      "Have a small cup of water nearby. Dip your thumbs in the water, then straight down into the middle of the dough spiral. Flatten it against the bottom of the cup to a thickness of about 1/16 inch (1.5 mm), then smooth the dough up the sides and create a raised lip about 1/8 inch (3 mm) above the pan. The pastry bottoms should be thinner than the tops.  ",
+      "Fill each cup 3/4 full with the cool custard. Bake the pastries until the edges of the dough are frilled and brown, about 8 to 9 minutes for the mini-muffin tins, 15 to 17 minutes for the classic tins.",
+      "Remove from the oven and allow the pasteis to cool a few minutes in the pan, then transfer to a rack and cool until just warm. Sprinkle the pasteis generously with confectioners’ sugar, then cinnamon and serve. Repeat with the remaining pastry and custard. These are best consumed the day they’re made."
+    ],
+    "dietary": [
+      "V"
+    ]
+  },
+  {
+    "category": "dessert",
+    "url": "/dessert/blood_orange_scones",
+    "title": "Blood Orange Scones",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614876906/clarklake_cookbook/blood_orange_scone_sm_narlci.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874540/clarklake_cookbook/blood_orange_scone_lg_lj3wnb.jpg",
+    "yield": 10,
+    "prepTime": 30,
+    "cookTime": 20,
+    "ingredientsList": [
+      "3 cups (448g) all purpose flour",
+      "generous pinch of salt",
+      "2 teaspoons (8g) baking powder ",
+      "1/2 teaspoon (4g)  baking soda  ",
+      "1/2 cup (112g) cold 1/2 inch cubed butter(keep in fridge until ready to use)",
+      "1/2 cup (95g) heavy cream",
+      "3/4 cup (175g) whole milk",
+      "1/4 cup (58g) granulated sugar",
+      "zest of one whole lemon",
+      "zest of half of a blood orange ",
+      "1 cup (150g) powdered sugar",
+      "juice from one blood orange (43g)"
+    ],
+    "directionsList": [
+      "Preheat oven to 400°F",
+      "In in large bowl, mix the all purpose flour, sugar, baking powder, baking soda and salt. Whisk until incoporated.",
+      "Add the grated zest of whole lemon and zest of half of a blood orange to the mixture. Whisk till incorporated.",
+      "Add COLD cubed butter into the mixture and lightly toss to coat with flour.",
+      "Use your fingers to pinch and break apart the cubes of butter into the flour until you are left with pea sized chunks of butter. Keep coating the butter with flour as you are breaking it apart. It is crucial to do this step swiftly as to not allow the butter to melt.",
+      "To the mixture, add the heavy cream and whole milk. Using a wooden spoon, mix until it just comes together forms a dough. Do not overmix. You don't want to develop too much gluten.",
+      "Go in with your hands and lightly fold the dough over itself and lightly press onto itself until it comes together in a ball.",
+      "Lightly dust a work surface with flour and place your dough ball onto it. Your dough ball is meant to look a bit shaggy and scrappy.",
+      "Roll your dough out to an about 9 inch long rectangle.",
+      "Fold the dough rectangle into thrids like a letter and rotate the whole 90 degrees.",
+      "Repeat the process until you have folded it 3 times.",
+      "Now roll your dough out to a circular shape until it is about 3 inches thick.",
+      "Cut the dough like you would a pizza into 8 even triangles.",
+      "Arrange on parchment lined baking sheet keeping them separate",
+      "Lightly brush your triangles with heavy cream before placing in preheated oven for 15-18 minutes.",
+      "While waiting for scones to finish baking, whisk powdered sugar and juice from a blood orange to from a smooth glaze.",
+      "When scones are done, let scones cool for 15 minutes put as much or little glaze on top."
+    ],
+    "dietary": [
+      "V"
+    ]
+  },
+  {
+    "category": "dessert",
+    "url": "/dessert/cny_cake",
+    "title": "Chinese New Year Cake",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874538/clarklake_cookbook/cny_cake_sm_i2w4ca.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874536/clarklake_cookbook/cny_cake_lg_prc61m.jpg",
+    "yield": "2 loaves",
+    "prepTime": "10M",
+    "cookTime": "50M",
+    "ingredientsList": [
+      "1 lb. bag of glutinous rice flour  (Erawan Brand look for the green bag)",
+      "1 cups brown sugar",
+      "2 Tbsp. oil",
+      "2 1/4 cups filtered water"
+    ],
+    "directionsList": [
+      "Boil the water and brown sugar until fully mixed.  Let cool to about room temperature.  Do not use until it's cooled or else you'll end up cooking the rice flour mixture (instead of steaming it).",
+      "Steam the batter for 50 minutes.",
+      "Let the cakes cool on your countertop for about 2 hours, then remove from the moulds & store in an airtight container in the refrigerator for at least 3 hours.  It's best if you plan to store it overnight in the fridge, that way you're not impatiently waiting around for it to cool.",
+      "Slice the cakes and lightly pan fry on medium-low heat for about 3 min. on each side or until it's soft and gooey."
+    ],
+    "dietary": [
+      "V",
+      "VG",
+      "DF"
+    ]
+  },
+  {
+    "category": "dessert",
+    "url": "/dessert/apple_pie",
+    "title": "Apple Pie",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874536/clarklake_cookbook/apple_pie_sm_ctjbt8.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874540/clarklake_cookbook/apple_pie_lg_w6x4m4.jpg",
+    "yield": "1 Pie",
+    "prepTime": "30M",
+    "cookTime": "1H",
+    "ingredientsList": [
+      "1 recipe pastry for a 9 inch double crust pie",
+      "½ cup unsalted butter",
+      "3 tablespoons all-purpose flour",
+      "¼ cup water",
+      "½ cup white sugar ",
+      "½ cup packed brown sugar",
+      "8 Granny Smith apples - peeled, cored and sliced"
+    ],
+    "directionsList": [
+      "Preheat oven to 425 degrees F (220 degrees C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring to a boil. Reduce temperature and let simmer.",
+      "Place the bottom crust in your pan. Fill with apples, mounded slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so that it does not run off.",
+      "Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft."
+    ],
+    "dietary": [
+      "V",
+      "VG"
+    ]
   },
   {
     "category": "other",
+    "url": "/other/classic_pesto",
     "title": "Classic Pesto",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/pesto_sm_vgvcoi.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/pesto_lg_pposac.jpg",
@@ -236,6 +517,7 @@
   },
   {
     "category": "other",
+    "url": "/other/focaccia_bread",
     "title": "Focaccia Bread",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/focaccia_sm_ct1mqb.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/focaccia_lg_a4w95i.jpg",
@@ -270,6 +552,7 @@
   },
   {
     "category": "other",
+    "url": "/other/thanksgiving_stuffing",
     "title": "Thanksgiving Stuffing",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/stuffing_sm_dvd1sf.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627567/clarklake_cookbook/stuffing_lg_qrdlue.jpg",
@@ -296,6 +579,35 @@
       "When you're ready to make the stuffing: Preheat oven to 350º and butter a large baking dish. In a large skillet over medium heat, melt butter. Add onion and celery and cook until soft and fragrant, 8 minutes. Stir in garlic, parsley, sage, thyme, and rosemary and cook until fragrant, 1 minute more. Season with salt and pepper. ",
       "Place bread in a large bowl and add skillet mixture. Toss to combine. In a medium bowl, whisk together chicken broth and beaten eggs and pour over bread mixture. Season generously with salt and pepper and toss until completely coated.",
       "Transfer mixture to prepared baking dish and cover with foil. Bake until cooked through, 45 minutes, then remove foil and cook until bread is golden, 15 to 20 minutes more."
+    ],
+    "dietary": []
+  },
+  {
+    "category": "other",
+    "url": "/other/pizza_dough",
+    "title": "Pizza Dough",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/pizza_dough_sm_vip3lr.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/pizza_dough_lg_mf8jdf.jpg",
+    "yield": "1 Pizza",
+    "prepTime": 20,
+    "cookTime": 15,
+    "ingredientsList": [
+      "3/4 cups water warm, 180mL",
+      "2 cups all-purpose flour 240g, or bread flour",
+      "1 packet yeast 7g",
+      "1 tbsp granulated sugar",
+      "3/4 tsp salt",
+      "1 tbsp olive oil"
+    ],
+    "directionsList": [
+      "In a warm mixing bowl, add warm water (about 100F), yeast and half the sugar. Mix then wait about 7 minutes or until you see bubbles forming in the mixture.",
+      "Mix the flour, remaining sugar, and salt in a bowl. If you're adding some dried herbs like thyme or rosemary they can get mixed in now.",
+      "Attach a dough hook to a stand mixer then add the flour and mix on low for about 1 minute. Increase to medium speed until the dough comes together in a ball.",
+      "Lightly flour your work surface and knead the dough until it's smooth and springs back when poked.",
+      "Use olive oil to coat the dough ball. Place it in a greased bowl. Cover with plastic wrap and place in a warm draft-free place to rise for about an hour or until the dough has doubled in size.",
+      "Preheat the oven to 450F degrees. When the dough has doubled, press it down and shape into a disk. You can knead It a few times If the texture needs some smoothing out or be fancy and twirl it in the air like a professional.",
+      "After your dough has been shaped you can brush with olive oil then add sauce, cheese and your choice of toppings.",
+      "Bake at 450F for about 12-15 minutes or until golden."
     ],
     "dietary": []
   }

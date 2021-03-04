@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import header from "../assets/svg/header.svg";
 import bowl from "../assets/svg/bowl.svg";
 import styled from "styled-components";
@@ -18,34 +19,37 @@ const Home = () => {
       <div className="recipe-category">
         <div className="header">
           <h2 className="category-title">Mains</h2>
-          <a key="main" href="main" className="btn-cta">
+          <Link to={{ pathname: "/main", state: "main" }} className="btn-cta">
             All >>
-          </a>
+          </Link>
         </div>
         <div className="recipe-category-cards">
-          <RecipeCard category="main" />
+          <RecipeCard category="main" loadNum={3} />
         </div>
       </div>
       <div className="recipe-category">
         <div className="header">
           <h2 className="category-title">Desserts</h2>
-          <a key="dessert" href="dessert" className="btn-cta">
+          <Link
+            to={{ pathname: "/other", state: "dessert" }}
+            className="btn-cta"
+          >
             All >>
-          </a>
+          </Link>
         </div>
         <div className="recipe-category-cards">
-          <RecipeCard category="dessert" />
+          <RecipeCard category="dessert" loadNum={3} />
         </div>
       </div>
       <div className="recipe-category">
         <div className="header">
           <h2 className="category-title">Others</h2>
-          <a key="other" href="other" className="btn-cta">
+          <Link to={{ pathname: "/other", state: "other" }} className="btn-cta">
             All >>
-          </a>
+          </Link>
         </div>
         <div className="recipe-category-cards">
-          <RecipeCard category="other" />
+          <RecipeCard category="other" loadNum={3} />
         </div>
       </div>
     </HomeStyle>

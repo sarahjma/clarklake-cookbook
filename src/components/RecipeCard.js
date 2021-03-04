@@ -5,10 +5,10 @@ import styled from "styled-components";
 const RecipeCard = (props) => {
   return data
     .filter((recipe) => recipe.category === props.category)
-    .slice(0, 3)
+    .slice(0, props.loadNum)
     .map((x) => (
       <RecipeCardStyle>
-        <div className="card">
+        <a href={x.url} className="card">
           <div className="img-container">
             <img className="recipe-img" src={x.attImg} alt="" />
             <div className="icon-container">
@@ -24,7 +24,7 @@ const RecipeCard = (props) => {
           <div className="descrip">
             <h3>{x.title}</h3>
           </div>
-        </div>
+        </a>
       </RecipeCardStyle>
     ));
 };
@@ -34,6 +34,12 @@ const RecipeCardStyle = styled.div`
   cursor: pointer;
   text-decoration: none;
   color: inherit;
+  &:hover {
+    opacity: 0.8;
+  }
+  .card {
+    text-decoration: none;
+  }
   .img-container {
     position: relative;
   }
@@ -68,6 +74,7 @@ const RecipeCardStyle = styled.div`
     justify-content: space-between;
   }
   h3 {
+    color: black;
     width: auto;
     text-align: left;
     font-weight: 400;
