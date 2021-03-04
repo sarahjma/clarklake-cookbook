@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import data from "../data/recipeIndex.json";
+import bowl from "../assets/svg/bowl.svg";
+import { Link } from "react-router-dom";
 const Recipe = () => {
   const history = useHistory();
   const url = history.location.pathname;
@@ -11,21 +13,40 @@ const Recipe = () => {
   const directionsList = info.directionsList;
   return (
     <RecipeStyle>
-      <h1 className="header">{info.title}</h1>
-      <div className="chefs-info">
-        <p>Serves: {info.yield}</p>
-        <span className="border-right"></span>
-        <p>Prep Time: {info.prepTime}</p>
-        <span className="border-right"></span>
-        <p>Cook Time: {info.cookTime}</p>
+      <Link to="/" className="home-btn">
+        <img src={bowl} alt="" />
+      </Link>
+      <div className="header">
+        <div className="header-container">
+          <h1>{info.title}</h1>
+        </div>
       </div>
-      <hr />
-      <img src={info.bannerImg} alt="" />
-      <div className="list-directions">
-        <div className="list">
-          <div className="left-block-spacer">
-            <h2 className="list-header">Ingredients</h2>
-            {ingredientsList.map((x) => (
+      <div className="recipe-info">
+        <div className="chefs-info">
+          <p>Serves: {info.yield}</p>
+          <span className="border-right"></span>
+          <p>Prep Time: {info.prepTime}</p>
+          <span className="border-right"></span>
+          <p>Cook Time: {info.cookTime}</p>
+        </div>
+        <hr />
+        <img src={info.bannerImg} alt="" />
+        <div className="list-directions">
+          <div className="list">
+            <div className="left-block-spacer">
+              <h2 className="list-header">Ingredients</h2>
+              {ingredientsList.map((x) => (
+                <ul>
+                  <li>
+                    <p>{x}</p>
+                  </li>
+                </ul>
+              ))}
+            </div>
+          </div>
+          <div className="list">
+            <h2 className="list-header">Directions</h2>
+            {directionsList.map((x) => (
               <ul>
                 <li>
                   <p>{x}</p>
@@ -34,38 +55,48 @@ const Recipe = () => {
             ))}
           </div>
         </div>
-        <div className="list">
-          <h2 className="list-header">Directions</h2>
-          {directionsList.map((x) => (
-            <ul>
-              <li>
-                <p>{x}</p>
-              </li>
-            </ul>
-          ))}
-        </div>
       </div>
     </RecipeStyle>
   );
 };
 
 const RecipeStyle = styled.div`
-  max-width: 1200px;
-  display: flex;
-  padding: 4em;
-  flex-direction: column;
-  margin: 0 auto;
+  margin-top: 5.5em;
+  .home-btn img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 4%;
+    padding: 0.5em;
+    margin: 0.5em 2.5em;
+  }
   .header {
-    padding: 0.5em 0 0.5em;
+    position: absolute;
+    left: 0;
     text-transform: uppercase;
-    font-size: 3.1em;
+    font-size: 1.7em;
     letter-spacing: 4px;
+    background-color: #3d7042;
+  }
+  .header-container {
+    margin: 0 auto;
+  }
+  .header h1 {
+    color: white;
+    padding: 0.1em 1em 0.1em 5.5em;
+  }
+  .recipe-info {
+    max-width: 1200px;
+    display: flex;
+    padding: 7em 4em 4em;
+    flex-direction: column;
+    margin: 0 auto;
   }
   .chefs-info {
     display: flex;
     text-transform: uppercase;
     font-size: 1.2em;
-    padding-bottom: 1.3em;
+    padding: 0em 0 1.3em;
     font-weight: 100;
     letter-spacing: 4px;
     .border-right {
@@ -75,7 +106,7 @@ const RecipeStyle = styled.div`
   }
   hr {
     border: none;
-    border-top: 1px solid #9a9999;
+    border-top: 1px solid black;
     padding-bottom: 2em;
   }
   img {

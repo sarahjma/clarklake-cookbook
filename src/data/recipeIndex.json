@@ -64,6 +64,52 @@
   },
   {
     "category": "main",
+    "url": "/main/spring_rolls",
+    "title": "Spring Rolls",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/spring_rolls_sm_pgfiuw.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463289/clarklake_cookbook/spring_rolls_lg_pu2soo.jpg",
+    "yield": "unlimited",
+    "prepTime": 30,
+    "cookTime": 10,
+    "ingredientsList": [
+      "Rice paper sheets",
+      "Vermicelli noodles",
+      "Cucumber(matchsticks)",
+      "Carrots(strips)",
+      "Bell Pepper(matchsticks)",
+      "Leafy lettuce(malleable parts preferred)",
+      "Cliantro",
+      "Thai Basil",
+      "Shrimp(cooked and halved)",
+      "Tofu(matchsticks)",
+      "Chicken(cooked and shredded)",
+      "",
+      "5 tbsp water",
+      "2 tbsp sugar",
+      "1.5 tbsp freshly squeezed lime or lemon juice",
+      "3 tbsp fish sauce",
+      "1 clove of garlic(minced)",
+      "1 Thai chili(thinly sliced)",
+      "1/4 cup creamy peanut butter",
+      "1 Tablespoon hoisin sauce",
+      "2 teaspoons soy sauce",
+      "1 clove garlic, mashed(minced)",
+      "1 teaspoon Sriracha sauce",
+      "1–2 Tablespoons warm water"
+    ],
+    "directionsList": [
+      "To make fishsauce dipping sauce, mix water, sugar, lemon juice, fish sauce and optionally Thai chili and garlic.",
+      "To make peanut dipping sauce, mix peanut butter, hoisin sauce, soy sauce and optionally, garlic and sriracha. Add warm water to thin until desired consistency is reached.",
+      "When rolling spring rolls, prepare any ingreidents you want listed up above.",
+      "Damp rice paper sheets.",
+      "Lay ingredients within and roll!"
+    ],
+    "dietary": [
+      "DF"
+    ]
+  },
+  {
+    "category": "main",
     "url": "/main/kalguksu",
     "title": "Kalguksu(Korean knife-cut noodles)",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/kalguksu_sm_k7f6mx.jpg",
@@ -390,7 +436,7 @@
   {
     "category": "dessert",
     "url": "/dessert/blood_orange_scones",
-    "title": "Blood Orange Scones",
+    "title": "Kitten Orange Scones",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614876906/clarklake_cookbook/blood_orange_scone_sm_narlci.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874540/clarklake_cookbook/blood_orange_scone_lg_lj3wnb.jpg",
     "yield": 10,

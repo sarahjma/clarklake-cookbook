@@ -75,8 +75,8 @@ const RecipeCardStyle = styled.div`
   }
   h3 {
     color: black;
-    width: auto;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     font-weight: 400;
     letter-spacing: 2px;
   }

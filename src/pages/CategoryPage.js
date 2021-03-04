@@ -1,7 +1,9 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import RecipeCard from "../components/RecipeCard";
 import styled from "styled-components";
+import bowl from "../assets/svg/bowl.svg";
 
 const CategoryPage = (props) => {
   const history = useHistory();
@@ -10,6 +12,9 @@ const CategoryPage = (props) => {
 
   return (
     <CategoryStyle>
+      <Link to="/" className="home-btn">
+        <img src={bowl} alt="" />
+      </Link>
       <h1 className="cat-header">{category}s</h1>
       <div className="card-container">
         <RecipeCard className="category-card" category={category} />
@@ -22,9 +27,18 @@ const CategoryStyle = styled.div`
   padding: 3em 0;
   margin: 0 auto;
   max-width: 1200px;
+  .home-btn img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 4%;
+    padding: 0.5em;
+    margin: 0.5em 2.5em;
+  }
   .cat-header {
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 5em;
+    letter-spacing: 5px;
   }
   .card-container {
     width: 100%;
