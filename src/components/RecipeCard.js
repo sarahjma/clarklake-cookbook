@@ -3,6 +3,8 @@ import data from "../data/recipeIndex.json";
 import styled from "styled-components";
 
 const RecipeCard = (props) => {
+  console.log(props);
+
   return data
     .filter((recipe) => recipe.category === props.category)
     .slice(0, props.loadNum)
