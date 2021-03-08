@@ -4,6 +4,7 @@ import header from "../assets/svg/header.svg";
 import bowl from "../assets/svg/bowl.svg";
 import styled from "styled-components";
 import RecipeCard from "../components/RecipeCard";
+import SearchBar from "../components/SearchBar";
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="recipe-category-cards">
-          <RecipeCard category="main" loadNum={3} />
+          <RecipeCard category="main" loadNum={3} title="" />
         </div>
       </div>
       <div className="recipe-category">
@@ -38,7 +39,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="recipe-category-cards">
-          <RecipeCard category="dessert" loadNum={3} />
+          <RecipeCard category="dessert" loadNum={3} title="" />
         </div>
       </div>
       <div className="recipe-category">
@@ -49,7 +50,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="recipe-category-cards">
-          <RecipeCard category="other" loadNum={3} />
+          <RecipeCard category="other" loadNum={3} title="" />
         </div>
       </div>
     </HomeStyle>

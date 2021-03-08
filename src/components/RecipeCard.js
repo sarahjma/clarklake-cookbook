@@ -3,10 +3,16 @@ import data from "../data/recipeIndex.json";
 import styled from "styled-components";
 
 const RecipeCard = (props) => {
-  console.log(props);
+  const wow = props.title;
+  const dude = wow.toLowerCase();
+  console.log(dude);
 
   return data
-    .filter((recipe) => recipe.category === props.category)
+    .filter(
+      (recipe) =>
+        recipe.category === props.category ||
+        recipe.title.toLowerCase().includes(dude)
+    )
     .slice(0, props.loadNum)
     .map((x) => (
       <RecipeCardStyle>
