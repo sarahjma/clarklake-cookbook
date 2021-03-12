@@ -16,7 +16,7 @@ const SearchBar = (props) => {
             )
             .slice(0, props.loadNum)
             .map((x) => (
-              <SearchBarStyle>
+              <SearchBarStyle key={x.title}>
                 <a href={x.url} className="card">
                   <div className="img-container">
                     <img className="recipe-img" src={x.attImg} alt="" />

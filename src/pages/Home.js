@@ -10,7 +10,6 @@ const Home = () => {
   const [searchValue, setSearchValue] = useState("");
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
-    console.log(searchValue);
   };
 
   const handleClearClick = () => {
