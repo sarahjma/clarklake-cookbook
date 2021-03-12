@@ -4,7 +4,7 @@ import header from "../assets/svg/header.svg";
 import bowl from "../assets/svg/bowl.svg";
 import styled from "styled-components";
 import RecipeCard from "../components/RecipeCard";
-import SearchBar from "../components/SearchBar";
+// import SearchBar from "../components/SearchBar";
 
 const Home = () => {
   return (
