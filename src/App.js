@@ -5,13 +5,13 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import Recipe from "./pages/Recipe";
-import SearchBar from "./components/SearchBar";
+// import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
-      <SearchBar />
+      {/* <SearchBar /> */}
       <Switch>
         <Route path="/" exact>
           <Home />
