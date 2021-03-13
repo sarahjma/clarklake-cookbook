@@ -36,8 +36,9 @@ const Recipe = () => {
             <div className="left-block-spacer">
               <h2 className="list-header">Ingredients</h2>
               {ingredientsList.map((x) => (
-                <ul>
-                  <li>
+                <ul key={x}>
+                  <li className="list-ingredients">
+                    <input type="checkbox" />
                     <p>{x}</p>
                   </li>
                 </ul>
@@ -47,7 +48,7 @@ const Recipe = () => {
           <div className="list">
             <h2 className="list-header">Directions</h2>
             {directionsList.map((x) => (
-              <ul>
+              <ul key={x}>
                 <li>
                   <p>{x}</p>
                 </li>
@@ -135,6 +136,17 @@ const RecipeStyle = styled.div`
     font-size: 1.2em;
     font-weight: 100;
     letter-spacing: 0.3px;
+    font-family: "Oxygen", sans-serif;
+  }
+  .list-ingredients {
+    display: flex;
+    align-items: center;
+  }
+  .list-ingredients input {
+    background-color: #3d7042;
+  }
+  .list-ingredients p {
+    padding-left: 1em;
   }
 `;
 
