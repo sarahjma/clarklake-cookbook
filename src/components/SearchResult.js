@@ -5,6 +5,7 @@ import { RecipeCardStyle } from "../styles/styles";
 
 const SearchBar = (props) => {
   const shouldDisplay = props.searchValue.length > 0;
+
   return (
     <SearchStyle>
       <h2 className="query-header">"{props.searchValue}"</h2>
@@ -12,7 +13,9 @@ const SearchBar = (props) => {
         {shouldDisplay &&
           data
             .filter((recipe) =>
-              recipe.title.toLowerCase().includes(props.searchValue)
+              recipe.tags.find((t) => {
+                return t.includes(props.searchValue);
+              })
             )
             .slice(0, props.loadNum)
             .map((x) => (

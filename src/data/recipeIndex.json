@@ -24,7 +24,13 @@
       "While the pasta is cooking, warm the olive oil in a small skillet over medium heat. Add the garlic and cook for about 1 minute, without letting it brown. Stir in the anchovies, capers and red pepper and cook for a half-minute more, then turn off the heat.",
       "Drain the pasta and return it to the pot. Pour in the garlic mixture, add the parsley, if using, and toss well to coat. Serve with grated Parmesan if desired."
     ],
-    "dietary": []
+    "dietary": [],
+    "tags": [
+      "midnight pasta",
+      "anchovy",
+      "noodles",
+      "italian"
+    ]
   },
   {
     "category": "main",
@@ -60,6 +66,16 @@
     "dietary": [
       "GF",
       "DF"
+    ],
+    "tags": [
+      "chicken pho",
+      "vietnamese",
+      "noodles",
+      "chicken",
+      "soup",
+      "gluten free",
+      "dairy free",
+      "noodle soup"
     ]
   },
   {
@@ -106,6 +122,12 @@
     ],
     "dietary": [
       "DF"
+    ],
+    "tags": [
+      "spring rolls",
+      "vietnamese",
+      "wrap",
+      "dairy free"
     ]
   },
   {
@@ -154,6 +176,15 @@
     ],
     "dietary": [
       "DF"
+    ],
+    "tags": [
+      "kalguksu",
+      "korean",
+      "knife cut noodles",
+      "noodles",
+      "chicken",
+      "soup",
+      "noodle soup"
     ]
   },
   {
@@ -190,8 +221,13 @@
       "Wipe out wok and return to high heat until lightly smoking. Add remaining 1 tablespoon oil and swirl to coat. Add remaining ginger slice and let sizzle for 5 seconds. Immediately add the fresh mushrooms and stir-fry until mushrooms are lightly browned around the edges, 2 to 3 minutes. Add scallions, sliced wood ears and day lilies, and stir-fry until softened and fragrant, about 30 seconds.",
       "Add the pork and eggs back to the wok. Stir sauce to combine again, then add it to the wok along with the MSG, if using. Stir-fry everything to combine and season to taste with salt and more white pepper, if desired. Discard ginger. Transfer moo shu mixture to a serving platter and serve immediately with Mandarin pancakes and hoisin sauce."
     ],
-    "dietary": [
-      "V"
+    "dietary": [],
+    "tags": [
+      "moo shu mushrooms",
+      "chinese",
+      "wrap",
+      "mushrooms",
+      "mandarin pancakes"
     ]
   },
   {
@@ -246,6 +282,19 @@
       "VG",
       "DF",
       "GF"
+    ],
+    "tags": [
+      "vegan curry noodle soup",
+      "vegan curry",
+      "vegan",
+      "curry",
+      "noodles",
+      "soup",
+      "noodle soup",
+      "tofu",
+      "vegetarian",
+      "dairy free",
+      "gluten free"
     ]
   },
   {
@@ -279,6 +328,16 @@
     "dietary": [
       "DF",
       "GF"
+    ],
+    "tags": [
+      "chicken kebab",
+      "chicken",
+      "kebab",
+      "skewers",
+      "grill",
+      "marinade",
+      "dairy free",
+      "gluten free"
     ]
   },
   {
@@ -323,6 +382,16 @@
       "V",
       "DF",
       "GF"
+    ],
+    "tags": [
+      "bibimbap",
+      "korean",
+      "rice",
+      "vegetarian",
+      "rice bowl",
+      "gouchujang",
+      "dairy free",
+      "gluten free"
     ]
   },
   {
@@ -356,6 +425,16 @@
     "dietary": [
       "DF",
       "GF"
+    ],
+    "tags": [
+      "chicken porridge",
+      "chicken",
+      "porridge",
+      "chinese",
+      "rice",
+      "dairy free",
+      "gluten free",
+      "soup"
     ]
   },
   {
@@ -394,6 +473,14 @@
     ],
     "dietary": [
       "DF"
+    ],
+    "tags": [
+      "goulash",
+      "stew",
+      "soup",
+      "hungarian",
+      "beef",
+      "dairy free"
     ]
   },
   {
@@ -420,6 +507,13 @@
     ],
     "dietary": [
       "V"
+    ],
+    "tags": [
+      "pizza margherita",
+      "pizza",
+      "italian",
+      "vegetarian",
+      "pie"
     ]
   },
   {
@@ -466,7 +560,14 @@
       "Add the chicken fat back into the clean pan over medium-high heat. Add the onion and a pinch of salt and cook for 2-3 minutes or until the onion is soft. Then add the tomato and cook for another 3 minutes or until the tomato is soft and pulpy. Add the rice and the fried shallots and stir to coat. Add the reserved marinade, stock, cardamom, cinnamon stick and bay leaves. Bring to a simmer stirring. Place the chicken pieces on top of the rice. Cover and reduce the heat to low. Simmer for 25 minutes or until the rice is tender and liquid evaporated.",
       "Move the chicken to one side of the pan. Pluck out and discard any of the whole spices and bay leaves you can find. Use a fork to fluff up the rice. To serve, place the rice and chicken on a plate. Sprinkle with coriander and extra fried shallots. Serve with the mint sauce and the sweet chilli sauce on the side."
     ],
-    "dietary": []
+    "dietary": [],
+    "tags": [
+      "khao mok gai",
+      "chicken",
+      "rice",
+      "tumeric chicken",
+      "thai"
+    ]
   },
   {
     "category": "dessert",
@@ -499,6 +600,14 @@
     "dietary": [
       "V",
       "DF"
+    ],
+    "tags": [
+      "dessert",
+      "vegan chocolate chip cookies",
+      "cookies",
+      "vegan",
+      "chocolate",
+      "sweet"
     ]
   },
   {
@@ -532,6 +641,15 @@
     "dietary": [
       "V",
       "GF"
+    ],
+    "tags": [
+      "banana bread",
+      "bread",
+      "banana",
+      "dessert",
+      "sweet",
+      "vegetarian",
+      "gluten free"
     ]
   },
   {
@@ -572,6 +690,13 @@
     ],
     "dietary": [
       "V"
+    ],
+    "tags": [
+      "cheesecake",
+      "cake",
+      "dessert",
+      "sweet",
+      "vegetarian"
     ]
   },
   {
@@ -618,6 +743,16 @@
     ],
     "dietary": [
       "V"
+    ],
+    "tags": [
+      "pasteis de nata",
+      "portuguese egg tart",
+      "portuguese",
+      "egg tart",
+      "tart",
+      "dessert",
+      "sweet",
+      "pastry"
     ]
   },
   {
@@ -664,6 +799,16 @@
     ],
     "dietary": [
       "V"
+    ],
+    "tags": [
+      "blood orange scones",
+      "kitten orange scones",
+      "blood orange",
+      "kitten orange",
+      "scones",
+      "dessert",
+      "sweet",
+      "pastry"
     ]
   },
   {
@@ -691,6 +836,18 @@
       "V",
       "VG",
       "DF"
+    ],
+    "tags": [
+      "chinese new year cake",
+      "cake",
+      "chinese",
+      "new year",
+      "mochi",
+      "sweet",
+      "dessert",
+      "vegetarian",
+      "vegan",
+      "dairy free"
     ]
   },
   {
@@ -717,8 +874,15 @@
       "Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft."
     ],
     "dietary": [
-      "V",
-      "VG"
+      "V"
+    ],
+    "tags": [
+      "apple pie",
+      "pie",
+      "apple",
+      "dessert",
+      "sweet",
+      "vegetarian"
     ]
   },
   {
@@ -744,8 +908,15 @@
       "Add the cheese and process very briefly, just long enough to combine. Store in refrigerator or freezer."
     ],
     "dietary": [
-      "V",
-      "DF"
+      "V"
+    ],
+    "tags": [
+      "pesto",
+      "basil",
+      "sauce",
+      "pine nuts",
+      "vegetarian",
+      "italian"
     ]
   },
   {
@@ -781,6 +952,14 @@
       "VG",
       "V",
       "DF"
+    ],
+    "tags": [
+      "focaccia bread",
+      "bread",
+      "vegan",
+      "vegetarian",
+      "dairy free",
+      "italian"
     ]
   },
   {
@@ -813,7 +992,14 @@
       "Place bread in a large bowl and add skillet mixture. Toss to combine. In a medium bowl, whisk together chicken broth and beaten eggs and pour over bread mixture. Season generously with salt and pepper and toss until completely coated.",
       "Transfer mixture to prepared baking dish and cover with foil. Bake until cooked through, 45 minutes, then remove foil and cook until bread is golden, 15 to 20 minutes more."
     ],
-    "dietary": []
+    "dietary": [],
+    "tags": [
+      "thanksgiving stuffing",
+      "stuffing",
+      "american",
+      "bread",
+      "sides"
+    ]
   },
   {
     "category": "other",
@@ -842,7 +1028,15 @@
       "After your dough has been shaped you can brush with olive oil then add sauce, cheese and your choice of toppings.",
       "Bake at 450F for about 12-15 minutes or until golden."
     ],
-    "dietary": []
+    "dietary": [
+      "V"
+    ],
+    "tags": [
+      "pizza dough",
+      "dough",
+      "bread",
+      "vegetarian"
+    ]
   },
   {
     "category": "other",
@@ -873,6 +1067,16 @@
       "V",
       "VG",
       "DF"
+    ],
+    "tags": [
+      "mandarin pancakes",
+      "pancakes",
+      "moo shu mushrooms",
+      "wrap",
+      "vegan",
+      "vegetarian",
+      "dairy free",
+      "chinese"
     ]
   }
 ]
