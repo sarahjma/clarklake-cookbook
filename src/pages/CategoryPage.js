@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 import RecipeCard from "../components/RecipeCard";
 import styled from "styled-components";
 import bowl from "../assets/svg/bowl.svg";
+import { motion } from "framer-motion";
+import { pageTrans } from "../styles/Animation";
+import { catTitleAnim } from "../styles/Animation";
+import { staggerItems } from "../styles/Animation";
+import { hoverBtn } from "../styles/Animation";
 
 const CategoryPage = (props) => {
   const history = useHistory();
@@ -11,20 +16,37 @@ const CategoryPage = (props) => {
   console.log(category);
 
   return (
-    <CategoryStyle>
+    <CategoryStyle
+      variants={pageTrans}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <Link to="/" className="home-btn">
-        <img src={bowl} alt="" />
+        <motion.img variants={hoverBtn} whileHover="hover" src={bowl} alt="" />
       </Link>
-      <h1 className="cat-header">{category}s</h1>
-      <div className="card-container">
+      <motion.h1
+        variants={catTitleAnim}
+        initial="hidden"
+        animate="show"
+        className="cat-header"
+      >
+        {category}s
+      </motion.h1>
+      <motion.div
+        variants={staggerItems}
+        initial="hidden"
+        animate="show"
+        className="card-container"
+      >
         <RecipeCard className="category-card" category={category} />
-      </div>
+      </motion.div>
     </CategoryStyle>
   );
 };
 
-const CategoryStyle = styled.div`
-  padding: 3em 0;
+const CategoryStyle = styled(motion.div)`
+  padding: 9em 0;
   margin: 0 auto;
   max-width: 1200px;
   .home-btn img {

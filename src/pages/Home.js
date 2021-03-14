@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+import { motion } from "framer-motion";
 import header from "../assets/svg/header.svg";
 import bowl from "../assets/svg/bowl.svg";
-import styled from "styled-components";
 import RecipeCard from "../components/RecipeCard";
 import SearchResult from "../components/SearchResult";
+import { pageTrans } from "../styles/Animation";
+import { staggerItems } from "../styles/Animation";
+import { hoverBtn } from "../styles/Animation";
 
 const Home = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -37,7 +41,13 @@ const Home = () => {
         {shouldDisplay ? (
           <SearchResult searchValue={searchValue} />
         ) : (
-          <div className="home-container">
+          <motion.div
+            className="home-container"
+            variants={pageTrans}
+            initial="hidden"
+            animate="show"
+            exit="exit"
+          >
             <div className="header-img">
               <img src={header} alt="clarklake cookbook header" />
               <img
@@ -46,20 +56,27 @@ const Home = () => {
                 alt="a bowl with chopsticks in it"
               />
             </div>
-            <div className="recipe-category">
+            <motion.div
+              variants={staggerItems}
+              initial="hidden"
+              animate="show"
+              className="recipe-category"
+            >
               <div className="header">
                 <h2 className="category-title">Mains</h2>
                 <Link
                   to={{ pathname: "/main", state: "main" }}
                   className="btn-cta"
                 >
-                  All >>
+                  <motion.div variants={hoverBtn} whileHover="hover">
+                    View All
+                  </motion.div>
                 </Link>
               </div>
               <div className="recipe-category-cards">
                 <RecipeCard category="main" loadNum={3} title="" />
               </div>
-            </div>
+            </motion.div>
             <div className="recipe-category">
               <div className="header">
                 <h2 className="category-title">Desserts</h2>
@@ -67,7 +84,9 @@ const Home = () => {
                   to={{ pathname: "/other", state: "dessert" }}
                   className="btn-cta"
                 >
-                  All >>
+                  <motion.div variants={hoverBtn} whileHover="hover">
+                    View All
+                  </motion.div>
                 </Link>
               </div>
               <div className="recipe-category-cards">
@@ -81,14 +100,16 @@ const Home = () => {
                   to={{ pathname: "/other", state: "other" }}
                   className="btn-cta"
                 >
-                  All >>
+                  <motion.div variants={hoverBtn} whileHover="hover">
+                    View All
+                  </motion.div>
                 </Link>
               </div>
               <div className="recipe-category-cards">
                 <RecipeCard category="other" loadNum={3} title="" />
               </div>
             </div>
-          </div>
+          </motion.div>
         )}
       </div>
     </HomeStyle>
@@ -152,7 +173,7 @@ const HomeStyle = styled.div`
     background-color: #3d7042;
     color: white;
     border-radius: 3px;
-    box-shadow: -7px 5px 20px -6px rgba(0, 0, 0, 0.34);
+    box-shadow: -7px 5px 14px -6px rgba(0, 0, 0, 0.25);
   }
   .category-title {
     font-size: 3em;

@@ -2,6 +2,7 @@ import React from "react";
 import data from "../data/recipeIndex.json";
 import styled from "styled-components";
 import { RecipeCardStyle } from "../styles/styles";
+import { hoverCard } from "../styles/Animation";
 
 const SearchBar = (props) => {
   const shouldDisplay = props.searchValue.length > 0;
@@ -19,7 +20,11 @@ const SearchBar = (props) => {
             )
             .slice(0, props.loadNum)
             .map((x) => (
-              <SearchBarStyle key={x.title}>
+              <SearchBarStyle
+                variants={hoverCard}
+                whileHover="hover"
+                key={x.title}
+              >
                 <a href={x.url} className="card">
                   <div className="img-container">
                     <img className="recipe-img" src={x.attImg} alt="" />

@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const RecipeCardStyle = styled.div`
+export const RecipeCardStyle = styled(motion.div)`
   max-width: 360px;
   cursor: pointer;
   text-decoration: none;

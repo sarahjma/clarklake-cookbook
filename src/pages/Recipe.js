@@ -4,6 +4,12 @@ import { useHistory } from "react-router-dom";
 import data from "../data/recipeIndex.json";
 import bowl from "../assets/svg/bowl.svg";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { pageTrans } from "../styles/Animation";
+import { detailTitleAnim } from "../styles/Animation";
+import { staggerItems } from "../styles/Animation";
+import { hoverBtn } from "../styles/Animation";
+
 const Recipe = () => {
   const history = useHistory();
   const url = history.location.pathname;
@@ -12,16 +18,31 @@ const Recipe = () => {
   const ingredientsList = info.ingredientsList;
   const directionsList = info.directionsList;
   return (
-    <RecipeStyle>
+    <RecipeStyle
+      variants={pageTrans}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <Link to="/" className="home-btn">
-        <img src={bowl} alt="" />
+        <motion.img variants={hoverBtn} whileHover="hover" src={bowl} alt="" />
       </Link>
-      <div className="header">
+      <motion.div
+        variants={detailTitleAnim}
+        initial="hidden"
+        animate="show"
+        className="header"
+      >
         <div className="header-container">
           <h1>{info.title}</h1>
         </div>
-      </div>
-      <div className="recipe-info">
+      </motion.div>
+      <motion.div
+        variants={staggerItems}
+        initial="hidden"
+        animate="show"
+        className="recipe-info"
+      >
         <div className="chefs-info">
           <p>Serves: {info.yield}</p>
           <span className="border-right"></span>
@@ -56,12 +77,12 @@ const Recipe = () => {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     </RecipeStyle>
   );
 };
 
-const RecipeStyle = styled.div`
+const RecipeStyle = styled(motion.div)`
   margin-top: 5.5em;
   .home-btn img {
     position: absolute;
