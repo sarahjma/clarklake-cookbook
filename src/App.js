@@ -6,12 +6,14 @@ import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import Recipe from "./pages/Recipe";
 import { AnimatePresence } from "framer-motion";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   // LOCATION FOR FRAMER MOTION EXIT ANIMATION
   const location = useLocation();
   return (
     <div className="App">
+      <ScrollTop />
       <GlobalStyle />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
