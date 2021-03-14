@@ -5,8 +5,9 @@ import { Switch, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import Recipe from "./pages/Recipe";
-import { AnimatePresence } from "framer-motion";
 import ScrollTop from "./components/ScrollTop";
+// Animation
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   // LOCATION FOR FRAMER MOTION EXIT ANIMATION

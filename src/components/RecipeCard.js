@@ -1,7 +1,8 @@
 import React from "react";
+// Style & Assets
 import data from "../data/recipeIndex.json";
-// import styled from "styled-components";
 import { RecipeCardStyle } from "../styles/styles";
+// Animation
 import { hoverCard } from "../styles/Animation";
 
 const RecipeCard = (props) => {

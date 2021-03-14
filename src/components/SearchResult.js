@@ -1,6 +1,8 @@
 import React from "react";
+// Style & Asset
 import data from "../data/recipeIndex.json";
 import styled from "styled-components";
+// Animation
 import { RecipeCardStyle } from "../styles/styles";
 import { hoverCard } from "../styles/Animation";
 

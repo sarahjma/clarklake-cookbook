@@ -1,9 +1,10 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
+// Style & Assets
 import RecipeCard from "../components/RecipeCard";
 import styled from "styled-components";
 import bowl from "../assets/svg/bowl.svg";
+// Animation
 import { motion } from "framer-motion";
 import { pageTrans } from "../styles/Animation";
 import { catTitleAnim } from "../styles/Animation";

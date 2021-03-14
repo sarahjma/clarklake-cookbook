@@ -1,9 +1,10 @@
 import React from "react";
+import { useHistory, Link } from "react-router-dom";
+// Style & Assets
 import styled from "styled-components";
-import { useHistory } from "react-router-dom";
 import data from "../data/recipeIndex.json";
 import bowl from "../assets/svg/bowl.svg";
-import { Link } from "react-router-dom";
+// Animation
 import { motion } from "framer-motion";
 import { pageTrans } from "../styles/Animation";
 import { detailTitleAnim } from "../styles/Animation";

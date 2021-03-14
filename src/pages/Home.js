@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
-import { motion } from "framer-motion";
-import header from "../assets/svg/header.svg";
-import bowl from "../assets/svg/bowl.svg";
+// Components
 import RecipeCard from "../components/RecipeCard";
 import SearchResult from "../components/SearchResult";
+// Style & Asset
+import styled from "styled-components";
+import header from "../assets/svg/header.svg";
+import bowl from "../assets/svg/bowl.svg";
+// Animation
+import { motion } from "framer-motion";
 import { pageTrans } from "../styles/Animation";
 import { staggerItems } from "../styles/Animation";
 import { hoverBtn } from "../styles/Animation";
