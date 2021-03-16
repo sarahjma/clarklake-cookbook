@@ -26,7 +26,7 @@ const Home = () => {
   const shouldDisplay = searchValue.length > 0;
 
   return (
-    <HomeStyle>
+    <HomeStyle variants={pageTrans} initial="hidden" animate="show" exit="exit">
       <div className="search-input">
         <input
           className="input-box"
@@ -44,13 +44,7 @@ const Home = () => {
         {shouldDisplay ? (
           <SearchResult searchValue={searchValue} />
         ) : (
-          <motion.div
-            className="home-container"
-            variants={pageTrans}
-            initial="hidden"
-            animate="show"
-            exit="exit"
-          >
+          <div className="home-container">
             <div className="header-img">
               <img src={header} alt="clarklake cookbook header" />
               <img
@@ -112,14 +106,14 @@ const Home = () => {
                 <RecipeCard category="other" loadNum={3} title="" />
               </div>
             </div>
-          </motion.div>
+          </div>
         )}
       </div>
     </HomeStyle>
   );
 };
 
-const HomeStyle = styled.div`
+const HomeStyle = styled(motion.div)`
   .search-input {
     text-align: right;
     padding: 1.5em;
