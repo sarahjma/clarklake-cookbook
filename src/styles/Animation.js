@@ -32,7 +32,7 @@ export const staggerItems = {
 
 export const hoverBtn = {
   hover: {
-    scale: 1.2,
+    scale: 1.1,
   },
 };
 

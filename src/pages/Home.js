@@ -6,7 +6,10 @@ import SearchResult from "../components/SearchResult";
 // Style & Asset
 import styled from "styled-components";
 import header from "../assets/svg/header.svg";
-import bowl from "../assets/svg/bowl.svg";
+// import HeaderLogo from "../assets/svg/Header Logo2.svg";
+// import header from "../assets/svg/header.svg";
+// import bowl from "../assets/svg/bowl.svg";
+// import magnify from "../assets/svg/magnifying.svg";
 // Animation
 import { motion } from "framer-motion";
 import { pageTrans } from "../styles/Animation";
@@ -27,7 +30,7 @@ const Home = () => {
 
   return (
     <HomeStyle variants={pageTrans} initial="hidden" animate="show" exit="exit">
-      <div className="search-input">
+      <div className="search-input search-container">
         <input
           className="input-box"
           type="text"
@@ -39,6 +42,8 @@ const Home = () => {
             x
           </button>
         )}
+
+        {/* <img src={magnify} alt="magnifying glass" /> */}
       </div>
       <div className="display-container">
         {shouldDisplay ? (
@@ -46,12 +51,7 @@ const Home = () => {
         ) : (
           <div className="home-container">
             <div className="header-img">
-              <img src={header} alt="clarklake cookbook header" />
-              <img
-                className="bowl-svg"
-                src={bowl}
-                alt="a bowl with chopsticks in it"
-              />
+              <img src={header} alt="" />
             </div>
             <motion.div
               variants={staggerItems}
@@ -61,14 +61,14 @@ const Home = () => {
             >
               <div className="header">
                 <h2 className="category-title">Mains</h2>
-                <Link
-                  to={{ pathname: "/main", state: "main" }}
-                  className="btn-cta"
-                >
-                  <motion.div variants={hoverBtn} whileHover="hover">
+                <motion.div variants={hoverBtn} whileHover="hover">
+                  <Link
+                    to={{ pathname: "/main", state: "main" }}
+                    className="btn-cta"
+                  >
                     View All
-                  </motion.div>
-                </Link>
+                  </Link>
+                </motion.div>
               </div>
               <div className="recipe-category-cards">
                 <RecipeCard category="main" loadNum={3} title="" />
@@ -77,14 +77,14 @@ const Home = () => {
             <div className="recipe-category">
               <div className="header">
                 <h2 className="category-title">Desserts</h2>
-                <Link
-                  to={{ pathname: "/other", state: "dessert" }}
-                  className="btn-cta"
-                >
-                  <motion.div variants={hoverBtn} whileHover="hover">
+                <motion.div variants={hoverBtn} whileHover="hover">
+                  <Link
+                    to={{ pathname: "/other", state: "dessert" }}
+                    className="btn-cta"
+                  >
                     View All
-                  </motion.div>
-                </Link>
+                  </Link>
+                </motion.div>
               </div>
               <div className="recipe-category-cards">
                 <RecipeCard category="dessert" loadNum={3} title="" />
@@ -93,14 +93,14 @@ const Home = () => {
             <div className="recipe-category">
               <div className="header">
                 <h2 className="category-title">Others</h2>
-                <Link
-                  to={{ pathname: "/other", state: "other" }}
-                  className="btn-cta"
-                >
-                  <motion.div variants={hoverBtn} whileHover="hover">
+                <motion.div variants={hoverBtn} whileHover="hover">
+                  <Link
+                    to={{ pathname: "/other", state: "other" }}
+                    className="btn-cta"
+                  >
                     View All
-                  </motion.div>
-                </Link>
+                  </Link>
+                </motion.div>
               </div>
               <div className="recipe-category-cards">
                 <RecipeCard category="other" loadNum={3} title="" />
@@ -129,6 +129,7 @@ const HomeStyle = styled(motion.div)`
   .input-box:focus {
     outline: none;
   }
+
   .clear-btn {
     position: absolute;
     top: 27px;
@@ -148,7 +149,7 @@ const HomeStyle = styled(motion.div)`
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    padding: 1em 1em 4em;
+    padding: 1em;
   }
   .bowl-svg {
     max-width: 15%;
