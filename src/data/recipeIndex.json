@@ -29,7 +29,8 @@
       "midnight pasta",
       "anchovy",
       "noodles",
-      "italian"
+      "italian",
+      "mains"
     ]
   },
   {
@@ -69,7 +70,8 @@
       "pork dumplings",
       "dumplings",
       "chinese",
-      "pork and cabbage dumplings"
+      "pork and cabbage dumplings",
+      "mains"
     ]
   },
   {
@@ -103,7 +105,8 @@
       "roast chicken",
       "chicken",
       "dairy free",
-      "gluten free"
+      "gluten free",
+      "mains"
     ]
   },
   {
@@ -148,7 +151,8 @@
       "middle eastern",
       "vegetarian",
       "gluten free",
-      "tortilla"
+      "tortilla",
+      "mains"
     ]
   },
   {
@@ -190,7 +194,8 @@
       "pad thai",
       "thai",
       "noodles",
-      "dairy free"
+      "dairy free",
+      "mains"
     ]
   },
   {
@@ -237,7 +242,8 @@
       "chicken",
       "japan",
       "rice",
-      "gluten free"
+      "gluten free",
+      "mains"
     ]
   },
   {
@@ -283,7 +289,8 @@
       "soup",
       "gluten free",
       "dairy free",
-      "noodle soup"
+      "noodle soup",
+      "mains"
     ]
   },
   {
@@ -335,7 +342,8 @@
       "spring rolls",
       "vietnamese",
       "wrap",
-      "dairy free"
+      "dairy free",
+      "mains"
     ]
   },
   {
@@ -392,7 +400,8 @@
       "noodles",
       "chicken",
       "soup",
-      "noodle soup"
+      "noodle soup",
+      "mains"
     ]
   },
   {
@@ -435,7 +444,8 @@
       "chinese",
       "wrap",
       "mushrooms",
-      "mandarin pancakes"
+      "mandarin pancakes",
+      "mains"
     ]
   },
   {
@@ -502,7 +512,8 @@
       "tofu",
       "vegetarian",
       "dairy free",
-      "gluten free"
+      "gluten free",
+      "mains"
     ]
   },
   {
@@ -545,7 +556,8 @@
       "grill",
       "marinade",
       "dairy free",
-      "gluten free"
+      "gluten free",
+      "mains"
     ]
   },
   {
@@ -599,7 +611,8 @@
       "rice bowl",
       "gouchujang",
       "dairy free",
-      "gluten free"
+      "gluten free",
+      "mains"
     ]
   },
   {
@@ -642,7 +655,8 @@
       "rice",
       "dairy free",
       "gluten free",
-      "soup"
+      "soup",
+      "mains"
     ]
   },
   {
@@ -688,7 +702,8 @@
       "soup",
       "hungarian",
       "beef",
-      "dairy free"
+      "dairy free",
+      "mains"
     ]
   },
   {
@@ -721,7 +736,8 @@
       "pizza",
       "italian",
       "vegetarian",
-      "pie"
+      "pie",
+      "mains"
     ]
   },
   {
@@ -774,7 +790,8 @@
       "chicken",
       "rice",
       "tumeric chicken",
-      "thai"
+      "thai",
+      "mains"
     ]
   },
   {
@@ -816,6 +833,60 @@
       "vegan",
       "chocolate",
       "sweet"
+    ]
+  },
+  {
+    "category": "dessert",
+    "url": "/dessert/blueberry_pie",
+    "title": "Blueberry Pie",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098094/clarklake_cookbook/blueberry_pie_sm_pxswkf.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098094/clarklake_cookbook/blueberry_pie_lg_xc7qow.jpg",
+    "yield": "1 pie",
+    "prepTime": "40M",
+    "cookTime": "1H",
+    "ingredientsList": [
+      "5 cups all-purpose flour 600g, plus more for rolling",
+      "2 tbsp granulated sugar 100g",
+      "1/2 tsp sea salt 2g",
+      "2 cups unsalted butter 452g, cold",
+      "6 tbsp ice water 90 mL",
+      "4 tbsp vodka 60mL, or more ice water if you don't want to use vodka.",
+      "1 egg for the egg wash",
+      "1 tbsp cream for the egg wash",
+      "5 cups blueberries",
+      "1 tbsp lemon zest optional",
+      "3 tbsp lemon Juice 45mL",
+      "1/4 cup corn starch 30g",
+      "1/4 cup sugar 100g",
+      "2 tbsp butter",
+      "1 pinch salt"
+    ],
+    "directionsList": [
+      "You will need to make the pastry crust at least 30 minutes in advance. Most people will want to make two batches of pastry in their food processor. To do this divide the above ingredients in half.",
+      "Add the flour, the sugar, and salt into a food processor. Give it a few pulses.",
+      "Cut COLD butter into tbsp size pieces. Transfer to food processor and pulse until the butter is cut into small lentil-sized clumps.",
+      "Mix the ice water and vodka together in a small cup and slowly drizzle it in while pulsing processor. If the mixture doesn't hold together when you squeeze a clump in your hand add a bit more water and pulse. ",
+      "Transfer dough onto a pastry mat or sheet of plastic wrap and knead 2-3 times just to help it come together a bit. Gently flatten into a one inch-thick disk, and cover in plastic wrap. If making the pastry in one large batch divide dough in half and place in the fridge to chill.",
+      "Once your pie crust is chilled, remove one of the disks from fridge and let it warm up on the counter for a few minutes, this will prevent cracking. Roll our pie crust to about 1/4 of an inch and transfer to pie pan or baking sheet if making a galette. Bake time will depend on form and filling.",
+      "In a small bowl, lightly beat an egg with a tablespoon of cream. Set it aside in the fridge until ready to use for the egg wash.",
+      "In a large bowl mix together the blueberries, lemon juice, zest, sugar, salt, and corn starch.",
+      "Add filling into the pie shell and smooth the top. Return to refrigerator to chill while you roll out the second disk of dough.",
+      "Roll the second disk out to 1/4 an inch thick. Cut into strips for the lattice; the thickness is totally up to you. I will say thicker strips are easier to work with though.",
+      "Arrange rows of strips across the top of your pie.",
+      "Fold over every other strip halfway up and place another strip of pastry across. Unfold the strips then fold over the other strips. Repeat this process until the lattice is complete.",
+      "Trim the excess and pinch together the edge.",
+      "Brush with the egg wash and sprinkle with sanding or granulated sugar.",
+      "Tent the edge with tin foil and bake at 425F for 20 minutes then reduce temperature to 350 and bake an additional 50 minutes or until golden and bubbling. Allow to cool and enjoy."
+    ],
+    "dietary": [
+      "V"
+    ],
+    "tags": [
+      "dessert",
+      "blueberry pie",
+      "pie",
+      "sweet",
+      "vegetarian"
     ]
   },
   {
@@ -960,7 +1031,8 @@
       "tart",
       "dessert",
       "sweet",
-      "pastry"
+      "pastry",
+      "vegetarian"
     ]
   },
   {
@@ -1016,7 +1088,8 @@
       "scones",
       "dessert",
       "sweet",
-      "pastry"
+      "pastry",
+      "vegetarian"
     ]
   },
   {
@@ -1374,6 +1447,35 @@
       "dough",
       "bread",
       "vegetarian"
+    ]
+  },
+  {
+    "category": "other",
+    "url": "/other/dumpling_wrapper",
+    "title": "Dumpling Wrapper",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616099718/clarklake_cookbook/dumpling_wrapper_sm_d8fdrd.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616099718/clarklake_cookbook/dumpling_wrapper_lg_bmm4uz.jpg",
+    "yield": "20",
+    "prepTime": "30M",
+    "cookTime": "5M",
+    "ingredientsList": [
+      "140g plain flour",
+      "80g boiled water, allowed to cool for 2 minutes"
+    ],
+    "directionsList": [
+      "To making the dumpling wrappers, place the flour in a large bowl and make a well in the centre. Pour in the warm water, stirring with a wooden spoon. Once the mixture starts to come together use your hands to knead until the dough forms a clean ball. Transfer the dough to a floured work surface and knead for 3-4 minutes or until the dough is firm and bounces back when you poke it with your finger. Place the dough in a sealable bag and seal. Let the dough rest and steam in the bag for 15 minutes.",
+      "Stretch dough into a bagel-type shape. Then cut in half to form 2 equal-sized logs. Take one log and roll it to about 2cm in diameter. Cut into even pieces (each log should make about 10 pieces that are about 10g per piece). Roll each piece into a ball. Take one ball and use a plastic cup or small rolling pin to roll the ball into a flat circle. Then roll the edges of the circle thinner than the centre. You should finish up with a wrapper about the size of your palm. Place wrapper onto a floured surface and continue the same process with the remaining dough. Be sure to generously flour between the stacked wrappers and don’t pile too many on top of each other because the weight can cause them to stick together.",
+      "Use straight away. Or keep frozen in sealable bags.",
+      "When using from frozen – thaw for about an hour outside of the freezer. Carefully separate the wrappers and sprinkle each with extra flour."
+    ],
+    "dietary": [
+      "V",
+      "VG",
+      "DF"
+    ],
+    "tags": [
+      "dumpling wrappers",
+      "wrappers"
     ]
   },
   {
