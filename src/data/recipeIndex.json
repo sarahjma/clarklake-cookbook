@@ -34,6 +34,46 @@
   },
   {
     "category": "main",
+    "url": "/main/pork_dumplings",
+    "title": "Pork & Cabbage Dumplings",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098099/clarklake_cookbook/pork_dumplings_sm_vd6ets.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098100/clarklake_cookbook/pork_dumplings_lg_e6vqi4.jpg",
+    "yield": "20 dumplings",
+    "prepTime": "1H 30M",
+    "cookTime": "5M",
+    "ingredientsList": [
+      "200g pork mince",
+      "1 egg",
+      "3 tbsp chicken stock",
+      "2 tsp cornflour (cornstarch)",
+      "1 tsp sea salt",
+      "½ tsp sesame oil",
+      "½ cup chopped cabbage",
+      "20 gyoza wrappers",
+      "4 tbsp chilli oil or homemade chilli oil",
+      "4 tbsp light soy sauce",
+      "2 tbsp white vinegar",
+      "¼ clove of garlic, finely grated",
+      "2 tbsp finely sliced spring onion (scallions)"
+    ],
+    "directionsList": [
+      "For the spicy sauce, mix chilli oil, soy sauce, white vinegar, grated glaric and scallions together. Set aside until ready to serve.",
+      "For the filling, place the pork, egg, chicken stock, cornflour, salt, sesame oil and Chinese garlic chives in a large bowl. Mix vigorously for 2-3 minutes or until the mixture is ‘sticky’.",
+      "Place a tablespoon of filling into the centre of a dumpling wrapper, moisten the edges with water and fold the wrapper over the filling. Pinch in the sides and squeeze to create pleats (watch the video for the technique). It can be harder to fold store-bought wrappers in this way. You can also just fold the wrapper over the filling and seal without pleats.",
+      "Bring a large pot of water to the boil over high heat. Have a jug of cold water nearby. Add the dumplings and cook until they float to the surface. Then pour in ½ a cup of cold water. Wait for the water to boil again. Then add another ½ cup of cold water. Wait for the water to boil again and by this time the dumplings should be cooked through. If not, repeat the process. Use a slotted spoon to transfer the dumplings to a bowl. Spoon over the spicy dumpling sauce and serve."
+    ],
+    "dietary": [
+      "DF"
+    ],
+    "tags": [
+      "pork dumplings",
+      "dumplings",
+      "chinese",
+      "pork and cabbage dumplings"
+    ]
+  },
+  {
+    "category": "main",
     "url": "/main/salt_and_pepper_roast_chicken",
     "title": "Salt & Pepper Roast Chicken",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662444/clarklake_cookbook/salt_and_pepper_roast_chicken_sm_fuwa89.jpg",
