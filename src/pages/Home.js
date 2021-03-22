@@ -6,10 +6,6 @@ import SearchResult from "../components/SearchResult";
 // Style & Asset
 import styled from "styled-components";
 import header from "../assets/svg/header.svg";
-// import HeaderLogo from "../assets/svg/Header Logo2.svg";
-// import header from "../assets/svg/header.svg";
-// import bowl from "../assets/svg/bowl.svg";
-// import magnify from "../assets/svg/magnifying.svg";
 // Animation
 import { motion } from "framer-motion";
 import { pageTrans } from "../styles/Animation";
