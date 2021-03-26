@@ -53,7 +53,7 @@ const SearchBar = (props) => {
 
 const SearchBarStyle = styled(RecipeCardStyle)``;
 const SearchStyle = styled.div`
-  margin: 1.6em 0;
+  padding: 1.6em 0;
   .query-header {
     font-size: 5em;
   }

@@ -26,20 +26,26 @@ const Home = () => {
 
   return (
     <HomeStyle variants={pageTrans} initial="hidden" animate="show" exit="exit">
-      <div className="search-input search-container">
-        <input
-          className="input-box"
-          type="text"
-          value={searchValue}
-          onChange={handleInputChange}
-        />
-        {shouldDisplay && (
-          <button className="clear-btn" onClick={handleClearClick}>
-            x
-          </button>
-        )}
+      <div className="header-container">
+        <div className="search-input">
+          <InputStyle
+            className={shouldDisplay ? "input-box" : null}
+            type="text"
+            value={searchValue}
+            onChange={handleInputChange}
+            placeholder="Type to Search"
+          />
 
-        {/* <img src={magnify} alt="magnifying glass" /> */}
+          {shouldDisplay ? (
+            <button className="clear-btn" onClick={handleClearClick}>
+              <i className="fas fa-times"></i>
+            </button>
+          ) : (
+            <button className="search-btn">
+              <i className="fas fa-search"></i>
+            </button>
+          )}
+        </div>
       </div>
       <div className="display-container">
         {shouldDisplay ? (
@@ -109,37 +115,78 @@ const Home = () => {
   );
 };
 
+const InputStyle = styled.input`
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0;
+`;
+
 const HomeStyle = styled(motion.div)`
-  .search-input {
-    text-align: right;
-    padding: 1.5em;
+  input[type="text"] {
+    font-size: 1em;
+  }
+  .header-container {
     position: relative;
   }
-  input[type="text"] {
-    font-size: 2em;
-  }
-  .input-box {
-    height: 40px;
-    width: 500px;
-  }
-  .input-box:focus {
-    outline: none;
+  .search-input {
+    position: absolute;
+    top: 85px;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 40px;
+    border: 3px solid #3d7042;
+    display: flex;
   }
 
+  .search-btn,
   .clear-btn {
-    position: absolute;
-    top: 27px;
-    right: 35px;
+    color: #3d7042;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 0.4s;
     border: none;
-    background-color: transparent;
-    font-size: 1.7em;
   }
+  .search-btn:focus,
+  .clear-btn:focus {
+    outline: none;
+  }
+  .search-btn:hover,
+  .clear-btn:hover {
+    cursor: pointer;
+  }
+  .search-input:hover > input {
+    width: 290px;
+    padding: 0 1em;
+  }
+  .input-box {
+    padding: 0 1em;
+    width: 290px;
+  }
+
+  .search-input:hover > .search-btn {
+    background: white;
+  }
+
   .display-container {
     max-width: 1200px;
     margin: 0 auto;
   }
   .home-container {
-    padding: 3em 0;
+    padding: 7em 0;
   }
   .header-img {
     display: flex;
