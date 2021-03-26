@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <HomeStyle variants={pageTrans} initial="hidden" animate="show" exit="exit">
-      <div className="header-container">
+      <div className="search-bounds">
         <div className="search-input">
           <InputStyle
             className={shouldDisplay ? "input-box" : null}
@@ -132,7 +132,7 @@ const HomeStyle = styled(motion.div)`
   input[type="text"] {
     font-size: 1em;
   }
-  .header-container {
+  .search-bounds {
     position: relative;
   }
   .search-input {
@@ -175,10 +175,6 @@ const HomeStyle = styled(motion.div)`
   .input-box {
     padding: 0 1em;
     width: 290px;
-  }
-
-  .search-input:hover > .search-btn {
-    background: white;
   }
 
   .display-container {

@@ -5,18 +5,18 @@
     "title": "Midnight Pasta",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/midnight_pasta_sm_y34xux.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/midnight_pasta_lg_auoemb.jpg",
-    "yield": 4,
-    "prepTime": 10,
-    "cookTime": 10,
+    "yield": "2",
+    "prepTime": "10mins",
+    "cookTime": "10mins",
     "ingredientsList": [
-      "½ pound spaghetti",
+      "½ lb spaghetti",
       "Salt",
-      "3 tablespoons extra virgin olive oil",
+      "3 tbsp extra virgin olive oil",
       "4 garlic cloves, peeled and roughly chopped",
       "4 anchovy filets, rinsed and roughly chopped",
-      "1 tablespoon capers, rinsed and roughly chopped",
-      "½ teaspoon red pepper flakes, or to taste",
-      "2 tablespoons chopped parsley, optional",
+      "1 tbsp capers, rinsed and roughly chopped",
+      "½ tsp red pepper flakes, or to taste",
+      "2 tbsp chopped parsley, optional",
       "Parmesan for grating, optional"
     ],
     "directionsList": [
@@ -27,6 +27,7 @@
     "dietary": [],
     "tags": [
       "midnight pasta",
+      "spaghetti",
       "anchovy",
       "noodles",
       "italian",
@@ -40,8 +41,8 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098099/clarklake_cookbook/pork_dumplings_sm_vd6ets.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098100/clarklake_cookbook/pork_dumplings_lg_e6vqi4.jpg",
     "yield": "20 dumplings",
-    "prepTime": "1H 30M",
-    "cookTime": "5M",
+    "prepTime": "1Hour 30Mins",
+    "cookTime": "8Mins",
     "ingredientsList": [
       "200g pork mince",
       "1 egg",
@@ -59,9 +60,11 @@
     ],
     "directionsList": [
       "For the spicy sauce, mix chilli oil, soy sauce, white vinegar, grated glaric and scallions together. Set aside until ready to serve.",
-      "For the filling, place the pork, egg, chicken stock, cornflour, salt, sesame oil and Chinese garlic chives in a large bowl. Mix vigorously for 2-3 minutes or until the mixture is ‘sticky’.",
-      "Place a tablespoon of filling into the centre of a dumpling wrapper, moisten the edges with water and fold the wrapper over the filling. Pinch in the sides and squeeze to create pleats (watch the video for the technique). It can be harder to fold store-bought wrappers in this way. You can also just fold the wrapper over the filling and seal without pleats.",
-      "Bring a large pot of water to the boil over high heat. Have a jug of cold water nearby. Add the dumplings and cook until they float to the surface. Then pour in ½ a cup of cold water. Wait for the water to boil again. Then add another ½ cup of cold water. Wait for the water to boil again and by this time the dumplings should be cooked through. If not, repeat the process. Use a slotted spoon to transfer the dumplings to a bowl. Spoon over the spicy dumpling sauce and serve."
+      "For the filling, place the pork, egg, chicken stock, cornflour, salt, sesame oil and cabbage in a large bowl. Mix vigorously for 2-3 minutes or until the mixture is ‘sticky’.",
+      "Place a tablespoon of filling into the centre of a dumpling wrapper, moisten the edges with water and fold the wrapper over the filling. Pinch in the sides and squeeze to create pleats. It can be harder to fold store-bought wrappers in this way. You can also just fold the wrapper over the filling and seal without pleats.",
+      "Bring a large pot of water to the boil over high heat. Have a jug of cold water nearby. Add the dumplings and cook until they float to the surface.",
+      "Then pour in ½ a cup of cold water. Wait for the water to boil again. Then add another ½ cup of cold water. Wait for the water to boil again and by this time the dumplings should be cooked through. If not, repeat the process. Use a slotted spoon to transfer the dumplings to a bowl.",
+      "Spoon over the spicy dumpling sauce and serve."
     ],
     "dietary": [
       "DF"
@@ -69,8 +72,11 @@
     "tags": [
       "pork dumplings",
       "dumplings",
+      "wrappers",
       "chinese",
+      "thai",
       "pork and cabbage dumplings",
+      "dairy free",
       "mains"
     ]
   },
@@ -81,8 +87,8 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662444/clarklake_cookbook/salt_and_pepper_roast_chicken_sm_fuwa89.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662445/clarklake_cookbook/salt_and_pepper_roast_chicken_lg_ff7keh.jpg",
     "yield": "1 chicken",
-    "prepTime": "5M",
-    "cookTime": "1.5H",
+    "prepTime": "5Min",
+    "cookTime": "1.5Hour",
     "ingredientsList": [
       "1 tsp black peppercorns",
       "1 tsp white peppercorns",
@@ -115,19 +121,19 @@
     "title": "Green Shakshuka",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662434/clarklake_cookbook/green_shakshuka_sm_vgowo7.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662434/clarklake_cookbook/green_shakshuka_lg_qultul.jpg",
-    "yield": 4,
-    "prepTime": 20,
-    "cookTime": 35,
+    "yield": "4",
+    "prepTime": "20mins",
+    "cookTime": "35mins",
     "ingredientsList": [
-      "3 tablespoons olive oil",
+      "3 tbsp olive oil",
       "1 yellow onion, peeled and thinly sliced",
       "2 garlic cloves, thinly sliced",
       "1 large bunch/1 1/2 pounds Swiss chard, stems and leaves separated and chopped (about 9 cups)",
-      "½ teaspoon salt, plus more as needed",
+      "½ tsp salt, plus more as needed",
       "⅓ cup half-and-half or heavy cream",
       "8 large eggs",
-      "¼ teaspoon black pepper, plus more as needed",
-      "3 ounces cotija cheese or queso fresco, crumbled (about 3/4 cup)",
+      "¼ tsp black pepper, plus more as needed",
+      "3 oz cotija cheese or queso fresco, crumbled (about 3/4 cup)",
       "1 avocado, sliced, for serving",
       "1 small jalapeño, thinly sliced, for serving",
       "Chopped cilantro, for serving",
@@ -161,9 +167,9 @@
     "title": "Pantry Pad Thai",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662434/clarklake_cookbook/easy_pad_thai_sm_cvxbpl.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662437/clarklake_cookbook/easy_pad_thai_lg_becmio.jpg",
-    "yield": 2,
-    "prepTime": 30,
-    "cookTime": 40,
+    "yield": "2",
+    "prepTime": "30mins",
+    "cookTime": "40mins",
     "ingredientsList": [
       "150g thin dried rice stick noodles",
       "1 tbsp vegetable oil",
@@ -194,6 +200,7 @@
       "pad thai",
       "thai",
       "noodles",
+      "chicken",
       "dairy free",
       "mains"
     ]
@@ -204,9 +211,9 @@
     "title": "Japanese Curry",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662434/clarklake_cookbook/japanese_curry_sm_fbdjqy.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615662435/clarklake_cookbook/japanese_curry_lg_evie9i.jpg",
-    "yield": 4,
-    "prepTime": 20,
-    "cookTime": "1H 15M",
+    "yield": "4",
+    "prepTime": "20mins",
+    "cookTime": "1hour 15mins",
     "ingredientsList": [
       "500g (1 lb) chicken thighs, cut into bite-sized pieces",
       "steamed rice to serve",
@@ -240,7 +247,7 @@
       "japanese curry",
       "curry",
       "chicken",
-      "japan",
+      "japanese",
       "rice",
       "gluten free",
       "mains"
@@ -252,9 +259,9 @@
     "title": "Vietnamese Chicken Pho",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_pho_sm_fr7ukl.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_pho_lg_x3mr2h.jpg",
-    "yield": 4,
-    "prepTime": 20,
-    "cookTime": 30,
+    "yield": "4",
+    "prepTime": "20mins",
+    "cookTime": "30mins",
     "ingredientsList": [
       "1 onion, skin on, halved",
       "4cm (2 inch) piece of ginger, skin on, halved",
@@ -284,6 +291,7 @@
     "tags": [
       "chicken pho",
       "vietnamese",
+      "pho",
       "noodles",
       "chicken",
       "soup",
@@ -321,27 +329,33 @@
       "1 clove of garlic(minced)",
       "1 Thai chili(thinly sliced)",
       "1/4 cup creamy peanut butter",
-      "1 Tablespoon hoisin sauce",
-      "2 teaspoons soy sauce",
+      "1 tbsp hoisin sauce",
+      "2 tsp soy sauce",
       "1 clove garlic, mashed(minced)",
-      "1 teaspoon Sriracha sauce",
-      "1–2 Tablespoons warm water"
+      "1 tsp Sriracha sauce",
+      "1–2 tbsp warm water"
     ],
     "directionsList": [
       "To make fishsauce dipping sauce, mix water, sugar, lemon juice, fish sauce and optionally Thai chili and garlic.",
       "To make peanut dipping sauce, mix peanut butter, hoisin sauce, soy sauce and optionally, garlic and sriracha. Add warm water to thin until desired consistency is reached.",
       "When rolling spring rolls, prepare any ingreidents you want listed up above.",
+      "To make vegetarian, choose tofu as your protein.",
       "Damp rice paper sheets.",
       "Lay ingredients within and roll!"
     ],
     "dietary": [
-      "DF"
+      "DF",
+      "V"
     ],
     "tags": [
       "spring rolls",
       "vietnamese",
+      "salad rolls",
+      "thai",
+      "rolls",
       "wrap",
       "dairy free",
+      "vegetarian",
       "mains"
     ]
   },
@@ -351,11 +365,11 @@
     "title": "Kalguksu(Korean knife-cut noodles)",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/kalguksu_sm_k7f6mx.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/kalguksu_lg_cavihr.jpg",
-    "yield": 4,
-    "prepTime": 60,
-    "cookTime": 60,
+    "yield": "4",
+    "prepTime": "1hour",
+    "cookTime": "1hour",
     "ingredientsList": [
-      "1 pound chicken breast",
+      "1 lb chicken breast",
       "16 cups water",
       "16 peeled garlic cloves (about ½ cup)",
       "1 medium onion, cut into quarters",
@@ -398,8 +412,10 @@
       "knife cut noodles",
       "noodles",
       "chicken",
+      "zucchini",
       "soup",
       "noodle soup",
+      "dairy free",
       "mains"
     ]
   },
@@ -409,24 +425,24 @@
     "title": "Moo Shu Mushrooms",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/mooshu_chicken_sm_sjqpeq.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/mushoo_chicken_lg_zmh2af.jpg",
-    "yield": 4,
-    "prepTime": 15,
-    "cookTime": 30,
+    "yield": "4",
+    "prepTime": "15mins",
+    "cookTime": "30mins",
     "ingredientsList": [
-      " ⅓ cup dried Chinese wood ear mushrooms (about 10 grams)",
+      "⅓ cup dried Chinese wood ear mushrooms (about 10 grams)",
       "¼ packed cup dried day lily buds (about 15 grams)",
-      "1 tablespoon Shaoxing wine or dry sherry",
-      "1 tablespoon light soy sauce or shoyu",
-      "1 teaspoon cornstarch",
-      "½ teaspoon white pepper, plus more as needed",
+      "1 tbsp Shaoxing wine or dry sherry",
+      "1 tbsp light soy sauce or shoyu",
+      "1 tsp cornstarch",
+      "½ tsp white pepper, plus more as needed",
       "Kosher salt",
       "2 ounces pork loin, pork sirloin, chicken breast or extra-firm tofu, cut into 1 1/2- to 2-inch slivers",
-      "4 tablespoons roasted sesame oil",
+      "4 tbsp roasted sesame oil",
       "3 eggs, thoroughly beaten with a pinch of salt",
       "2 slices fresh ginger",
-      "½ pound mixed sliced fresh mushrooms, preferably Asian mushrooms such as shimeji, shiitake, enoki, oyster or maitake",
+      "½ lb mixed sliced fresh mushrooms, preferably Asian mushrooms such as shimeji, shiitake, enoki, oyster or maitake",
       "2 scallions, thinly sliced on a sharp bias",
-      "¼ teaspoon MSG (optional)"
+      "¼ tsp MSG (optional)"
     ],
     "directionsList": [
       "Rehydrate the dried ingredients for the filling: Place wood ear mushrooms and day lily buds in two separate medium bowls or measuring cups large enough to allow for them to expand about fourfold. Cover with very hot water, and set aside until rehydrated, about 15 minutes. (I use hot tap water, but you could also use water heated on the stovetop or in the microwave.) Drain thoroughly. Remove tough centers from the wood ears, then thinly slice them. Cut day lilies into 2-inch pieces.",
@@ -453,9 +469,9 @@
     "title": "Vegan Curry Noodle Soup",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463286/clarklake_cookbook/vegan_green_curry_noodle_soup_sm_tf0jtp.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_green_curry_noodle_soup_lg_ewbev8.jpg",
-    "yield": 4,
-    "prepTime": 5,
-    "cookTime": 25,
+    "yield": "4",
+    "prepTime": "20mins",
+    "cookTime": "25mins",
     "ingredientsList": [
       "2 tsp (10 mL) vegetable oil",
       "1 block (375 g) extra-firm tofu, pressed, cut into 1 cm cubes",
@@ -521,15 +537,15 @@
     "title": "Chicken Kebab",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462281/clarklake_cookbook/chicken_kebab_sm_wsqeo0.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462280/clarklake_cookbook/chicken_kebab_lg_qcyvna.jpg",
-    "yield": 4,
-    "prepTime": 15,
-    "cookTime": 30,
+    "yield": "4",
+    "prepTime": "20mins",
+    "cookTime": "30mins",
     "ingredientsList": [
       "1 lb chicken thighs or breasts cut into bite sizes",
       "1/4 cup olive oil",
       "1/3 cup soy sauce",
       "1/4 cup honey",
-      "1 teaspoon minced garlic",
+      "1 tsp minced garlic",
       "salt and pepper to taste",
       "2 bell pepper",
       "1 large onion",
@@ -565,9 +581,9 @@
     "title": "Bibimbap",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578770/clarklake_cookbook/bibimbap_sm_sunrb4.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578770/clarklake_cookbook/bibimbap_lg_aad9rm.jpg",
-    "yield": 2,
-    "prepTime": 40,
-    "cookTime": 30,
+    "yield": "2",
+    "prepTime": "40mins",
+    "cookTime": "30mins",
     "ingredientsList": [
       "2 cups of white rice",
       "Sesame oil",
@@ -599,18 +615,17 @@
     ],
     "dietary": [
       "V",
-      "DF",
-      "GF"
+      "DF"
     ],
     "tags": [
       "bibimbap",
       "korean",
+      "vegetable rice bowl",
       "rice",
       "vegetarian",
       "rice bowl",
       "gouchujang",
       "dairy free",
-      "gluten free",
       "mains"
     ]
   },
@@ -620,18 +635,18 @@
     "title": "Chicken Porridge",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578768/clarklake_cookbook/chicken_porridge_sm_g93otg.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578769/clarklake_cookbook/chicken_porridge_lg_hhr1hh.jpg",
-    "yield": 8,
-    "prepTime": 30,
-    "cookTime": 60,
+    "yield": "8",
+    "prepTime": "30mins",
+    "cookTime": "1hour",
     "ingredientsList": [
       "4lbs chicken (any type)",
       "6 cups of water",
       "4 chicken stock",
       "1 cup long-grain rice",
-      "3 tablespoons medium-dry sherry vinegar",
-      "2 teaspoons sesame oil",
+      "3 tbsp medium-dry sherry vinegar",
+      "2 tsp sesame oil",
       "1 inch ginger, peeled and thinly matchsticked",
-      "2 teaspoons salt",
+      "2 tsp salt",
       "1 stalk scallion thinly sliced",
       "Cracked pepper",
       "Crushed peanuts"
@@ -664,26 +679,26 @@
     "title": "Beef Goulash",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578769/clarklake_cookbook/goulash_sm_ykbf02.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578770/clarklake_cookbook/goulash_lg_quctak.jpg",
-    "yield": 4,
-    "prepTime": "1H 35M",
-    "cookTime": "2H 30M",
+    "yield": "4",
+    "prepTime": "1hour 35mins",
+    "cookTime": "2hour 30mins",
     "ingredientsList": [
-      "2 tablespoons extra virgin olive oil",
+      "2 tbsp extra virgin olive oil",
       "4 cups onions, thinly sliced",
-      "1 tablespoon sugar",
+      "1 tbsp sugar",
       "3 garlic cloves, minced",
-      "1 tablespoon caraway seeds, toasted and ground",
-      "1 1/2 tablespoons sweet paprika",
-      "1 teaspoon spicy paprika",
-      "2 tablespoons minced fresh marjoram leaves",
-      "1 teaspoon minced fresh thyme leaves",
+      "1 tbsp caraway seeds, toasted and ground",
+      "1 1/2 tbsp sweet paprika",
+      "1 tsp spicy paprika",
+      "2 tbsp minced fresh marjoram leaves",
+      "1 tsp minced fresh thyme leaves",
       "1 bay leaf",
-      "3 tablespoons tomato paste",
-      "2 tablespoons balsamic vinegar",
+      "3 tbsp tomato paste",
+      "2 tbsp balsamic vinegar",
       "4 cups chicken stock",
-      "2 1/2 pounds beef shank, cut into 2-inch cubes",
-      "1 teaspoon kosher salt",
-      "1/4 teaspoon freshly ground black pepper"
+      "2 1/2 lb beef shank, cut into 2-inch cubes",
+      "1 tsp kosher salt",
+      "1/4 tsp freshly ground black pepper"
     ],
     "directionsList": [
       "In a large saute pan, heat the olive oil and saute the onions and sugar until caramelized.",
@@ -693,7 +708,8 @@
       "Taste and adjust seasoning with salt and pepper. Serve with Spaetzle on the side."
     ],
     "dietary": [
-      "DF"
+      "DF",
+      "GF"
     ],
     "tags": [
       "goulash",
@@ -712,8 +728,8 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462285/clarklake_cookbook/pizza_margherita_sm_w11iyf.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462285/clarklake_cookbook/pizza_margherita_lg_vscbrx.jpg",
     "yield": "1 12inch pizza",
-    "prepTime": "30",
-    "cookTime": "20",
+    "prepTime": "30mins",
+    "cookTime": "20mins",
     "ingredientsList": [
       "1 serving of pizza Dough",
       "8oz fresh mozzarella thinly sliced",
@@ -735,6 +751,7 @@
       "pizza",
       "italian",
       "vegetarian",
+      "basil",
       "pie",
       "mains"
     ]
@@ -745,9 +762,9 @@
     "title": "Khao Mok Gai",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578771/clarklake_cookbook/khao_mok_gai_sm_zhgmf8.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615578770/clarklake_cookbook/khao_mok_gai_lg_wqc1uz.jpg",
-    "yield": 4,
-    "prepTime": 30,
-    "cookTime": 45,
+    "yield": "4",
+    "prepTime": "30mins",
+    "cookTime": "45mins",
     "ingredientsList": [
       "4 garlic cloves",
       "3 coriander (cilantro) roots, roughly chopped",
