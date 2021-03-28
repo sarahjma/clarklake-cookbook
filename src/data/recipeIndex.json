@@ -1496,9 +1496,51 @@
   },
   {
     "category": "other",
+    "url": "/other/tortilla",
+    "title": "Tortilla",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616883885/clarklake_cookbook/tortilla_sm_xnauli.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616883885/clarklake_cookbook/tortilla_lg_k1zyyz.jpg",
+    "yield": "6 10in tortillas",
+    "prepTime": "2hours",
+    "cookTime": "1min",
+    "ingredientsList": [
+      "2 cups (300g)  all purpose flour",
+      "1 teaspoon (4g) salt",
+      "1/2 teaspoon 2g baking powder",
+      "1/4 cup vegetable oil",
+      "3/4 cup hot water"
+    ],
+    "directionsList": [
+      "Combine flour, salt and baking powder in a mixing bowl.",
+      "Pour hot water and vegetable oil in the dry ingredients and mix with fork until it forms a single dough ball.",
+      "Once combined, kneed the dough ball for 5 minutes on a clean and lightly floured surface.",
+      "When the dough ball is smooth in texture, wrap in plastic wrap and let rest for 1-2 hours.",
+      "Divide the dough ball in 6 even pieces and roll out to 10 inch circle. (For taco size tortillas, just roll them out to 5 inch circles and you'll have double as many)",
+      "On a ripping hot cast iron pan, lay your tortillas to cook on one side until you start to see bubbles form. Then flip it over and cook until its a little scorched.",
+      "You can either roll them out and cook one at a time or roll them all out and then cook. Just make sure the uncooked tortilla dough does not dry out.",
+      "Repeat until all your tortillas are cooked. To keep them fresh while the others are cooking, wrap them in a clean, dry towel."
+    ],
+    "dietary": [
+      "V",
+      "VG",
+      "DF"
+    ],
+    "tags": [
+      "tortillas",
+      "mexican",
+      "burritos",
+      "tacos",
+      "vegan",
+      "wrap",
+      "vegetarian",
+      "dairy free"
+    ]
+  },
+  {
+    "category": "other",
     "url": "/other/mandarin_pancakes",
     "title": "Mandarin Pancakes",
-    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615582679/clarklake_cookbook/mandarin_pancakes_sm_euawac.jpg",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616883882/clarklake_cookbook/mandarin_pancake_sm_hahfkh.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1615582679/clarklake_cookbook/mandarin_pancake_lg_ten0pi.jpg",
     "yield": "12 Pancakes",
     "prepTime": 30,
