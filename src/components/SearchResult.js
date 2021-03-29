@@ -6,7 +6,7 @@ import styled from "styled-components";
 import { RecipeCardStyle } from "../styles/styles";
 import { hoverCard } from "../styles/Animation";
 
-const SearchBar = (props) => {
+const SearchResult = (props) => {
   const shouldDisplay = props.searchValue.length > 0;
 
   return (
@@ -22,7 +22,7 @@ const SearchBar = (props) => {
             )
             .slice(0, props.loadNum)
             .map((x) => (
-              <SearchBarStyle
+              <SearchResultStyle
                 variants={hoverCard}
                 whileHover="hover"
                 key={x.title}
@@ -44,16 +44,18 @@ const SearchBar = (props) => {
                     <h3>{x.title}</h3>
                   </div>
                 </a>
-              </SearchBarStyle>
+              </SearchResultStyle>
             ))}
       </div>
     </SearchStyle>
   );
 };
 
-const SearchBarStyle = styled(RecipeCardStyle)``;
+const SearchResultStyle = styled(RecipeCardStyle)``;
 const SearchStyle = styled.div`
   padding: 1.6em 0;
+  max-width: 1200px;
+  margin: 0 auto;
   .query-header {
     font-size: 5em;
   }
@@ -69,4 +71,4 @@ const SearchStyle = styled.div`
   }
 `;
 
-export default SearchBar;
+export default SearchResult;

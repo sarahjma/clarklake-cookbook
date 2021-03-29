@@ -1,15 +1,14 @@
 import React from "react";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 // Style & Assets
 import RecipeCard from "../components/RecipeCard";
 import styled from "styled-components";
-import bowl from "../assets/svg/bowl.svg";
+
 // Animation
 import { motion } from "framer-motion";
 import { pageTrans } from "../styles/Animation";
 import { catTitleAnim } from "../styles/Animation";
 import { staggerItems } from "../styles/Animation";
-import { hoverBtn } from "../styles/Animation";
 
 const CategoryPage = (props) => {
   const history = useHistory();
@@ -23,9 +22,6 @@ const CategoryPage = (props) => {
       animate="show"
       exit="exit"
     >
-      <Link to="/" className="home-btn">
-        <motion.img variants={hoverBtn} whileHover="hover" src={bowl} alt="" />
-      </Link>
       <motion.h1
         variants={catTitleAnim}
         initial="hidden"
@@ -50,14 +46,6 @@ const CategoryStyle = styled(motion.div)`
   padding: 9em 0;
   margin: 0 auto;
   max-width: 1200px;
-  .home-btn img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    max-width: 4%;
-    padding: 0.5em;
-    margin: 0.5em 2.5em;
-  }
   .cat-header {
     text-transform: uppercase;
     font-size: 5em;

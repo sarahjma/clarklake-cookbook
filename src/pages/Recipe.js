@@ -1,15 +1,14 @@
 import React from "react";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 // Style & Assets
 import styled from "styled-components";
 import data from "../data/recipeIndex.json";
-import bowl from "../assets/svg/bowl.svg";
+
 // Animation
 import { motion } from "framer-motion";
 import { pageTrans } from "../styles/Animation";
 import { detailTitleAnim } from "../styles/Animation";
 import { staggerItems } from "../styles/Animation";
-import { hoverBtn } from "../styles/Animation";
 
 const Recipe = () => {
   const history = useHistory();
@@ -25,9 +24,6 @@ const Recipe = () => {
       animate="show"
       exit="exit"
     >
-      <Link to="/" className="home-btn">
-        <motion.img variants={hoverBtn} whileHover="hover" src={bowl} alt="" />
-      </Link>
       <motion.div
         variants={detailTitleAnim}
         initial="hidden"
