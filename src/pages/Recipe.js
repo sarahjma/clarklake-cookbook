@@ -80,15 +80,8 @@ const Recipe = () => {
 };
 
 const RecipeStyle = styled(motion.div)`
-  margin-top: 5.5em;
-  .home-btn img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    max-width: 4%;
-    padding: 0.5em;
-    margin: 0.5em 2.5em;
-  }
+  padding-top: 8.5em;
+
   .header {
     position: absolute;
     left: 0;

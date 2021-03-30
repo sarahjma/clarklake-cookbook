@@ -18,12 +18,13 @@ const Nav = () => {
   );
 };
 
-const NavStyle = styled.div`
+const NavStyle = styled.nav`
+  position: relatlve;
   .home-btn img {
     position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 4%;
+    top: 1%;
+    left: 4%;
+    max-width: 5%;
     padding: 0.5em;
     margin: 0.5em 2.5em;
   }

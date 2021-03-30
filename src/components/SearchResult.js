@@ -53,7 +53,7 @@ const SearchResult = (props) => {
 
 const SearchResultStyle = styled(RecipeCardStyle)``;
 const SearchStyle = styled.div`
-  padding: 1.6em 0;
+  padding: 8.5em 0;
   max-width: 1200px;
   margin: 0 auto;
   .query-header {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import GlobalStyle from "./styles/GlobalStyle";
-import { Switch, Route, useLocation, Link } from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
 import SearchResult from "../src/components/SearchResult";
 import styled from "styled-components";
 // Pages`
@@ -8,11 +8,10 @@ import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import Recipe from "./pages/Recipe";
 import ScrollTop from "./components/ScrollTop";
-// import NavBar from "./components/Nav";
+import Nav from "./components/Nav";
 
 // Animation
 import { AnimatePresence } from "framer-motion";
-import Nav from "./components/Nav";
 
 function App() {
   // LOCATION FOR FRAMER MOTION EXIT ANIMATION
@@ -96,8 +95,8 @@ const SearchBarStyle = styled.div`
 
   .search-input {
     position: absolute;
-    top: 85px;
-    left: 85%;
+    top: 55px;
+    left: 91%;
     transform: translate(-50%, -50%);
     background: white;
     border-radius: 40px;
@@ -128,12 +127,12 @@ const SearchBarStyle = styled.div`
     cursor: pointer;
   }
   .search-input:hover > input {
-    width: 290px;
+    width: 230px;
     padding: 0 1em;
   }
   .input-box {
     padding: 0 1em;
-    width: 290px;
+    width: 230px;
   }
 `;
 
