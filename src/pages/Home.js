@@ -81,8 +81,9 @@ const Home = () => {
 
 const HomeStyle = styled(motion.div)`
   .display-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 0 3em;
   }
   .home-container {
     padding: 7em 0;
@@ -123,6 +124,8 @@ const HomeStyle = styled(motion.div)`
   .recipe-category-cards {
     display: flex;
     justify-content: space-between;
+  }
+  @media only screen and (max-width: 620px) {
   }
 `;
 

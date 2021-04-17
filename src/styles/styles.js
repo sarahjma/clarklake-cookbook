@@ -14,11 +14,12 @@ export const RecipeCardStyle = styled(motion.div)`
   }
   .img-container {
     position: relative;
+    padding: 0 5px;
   }
   .icon-container {
     position: absolute;
     top: 0.5em;
-    right: 0.5em;
+    right: 1em;
   }
   .recipe-img {
     border-radius: 5px;

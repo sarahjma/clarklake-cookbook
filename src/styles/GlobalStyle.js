@@ -10,6 +10,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Oswald', sans-serif;
     background-color: #f4f4f5;
   }
+  img {
+    max-width: 100%;
+  }
 `;
 
 export default GlobalStyle;

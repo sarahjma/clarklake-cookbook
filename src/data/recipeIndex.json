@@ -308,8 +308,8 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/spring_rolls_sm_pgfiuw.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463289/clarklake_cookbook/spring_rolls_lg_pu2soo.jpg",
     "yield": "unlimited",
-    "prepTime": 30,
-    "cookTime": 10,
+    "prepTime": "40mins",
+    "cookTime": "5mins",
     "ingredientsList": [
       "Rice paper sheets",
       "Vermicelli noodles",
@@ -384,8 +384,8 @@
       "ground black pepper"
     ],
     "directionsList": [
-      "Mix with a wooden spoon to form a lump. Knead it by hand until it forms as ball. Put it into a plastic bag, seal it, and let it sit in the fridge or on the kitchen counter for 10 minutes.",
       "Combine flour, starch, 1 teaspoon kosher salt, 2 tablespoons vegetable oil, and 1¼ cup water in a large bowl.",
+      "Mix with a wooden spoon to form a lump. Knead it by hand until it forms as ball. Put it into a plastic bag, seal it, and let it sit in the fridge or on the kitchen counter for 10 minutes.",
       "Take the dough out of the plastic bag, knead it for 2 to 5 minutes, and then put it back in. Kneading it in stages like this, and storing it in the plastic bag between sessions will make it soft and pliable with a minimum of effort.",
       "Put water, chicken breast, garlic, and onion in a large stock pot and boil for 1 hour over high heat.",
       "Combine the zucchini matchsticks with ¼ teaspoon kosher salt and set aside for 5 to 10 minutes.",
@@ -807,7 +807,9 @@
       "rice",
       "tumeric chicken",
       "thai",
-      "mains"
+      "mains",
+      "spicy",
+      "thai biryani"
     ]
   },
   {
@@ -817,8 +819,8 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463287/clarklake_cookbook/vegan_chocolate_chip_cookies_sm_sbuw2o.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614463288/clarklake_cookbook/vegan_chocolate_chip_cookies_lg_tsnbwl.jpg",
     "yield": "18-20 Cookies",
-    "prepTime": "10 Minutes",
-    "cookTime": "15 Minutes",
+    "prepTime": "10mins",
+    "cookTime": "15mins",
     "ingredientsList": [
       "1/2 cup (105 g) refined coconut oil, packed, not melted*",
       "2/3 cup (140 g) brown sugar, packed",
@@ -840,13 +842,18 @@
     ],
     "dietary": [
       "V",
-      "DF"
+      "VG",
+      "DF",
+      "GF"
     ],
     "tags": [
       "dessert",
       "vegan chocolate chip cookies",
       "cookies",
       "vegan",
+      "vegetarian",
+      "dairy free",
+      "gluten free",
       "chocolate",
       "sweet"
     ]
@@ -858,8 +865,8 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098094/clarklake_cookbook/blueberry_pie_sm_pxswkf.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1616098094/clarklake_cookbook/blueberry_pie_lg_xc7qow.jpg",
     "yield": "1 pie",
-    "prepTime": "40M",
-    "cookTime": "1H",
+    "prepTime": "40mins",
+    "cookTime": "1Hour",
     "ingredientsList": [
       "5 cups all-purpose flour 600g, plus more for rolling",
       "2 tbsp granulated sugar 100g",
@@ -911,9 +918,9 @@
     "title": "Banana Bread",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/banana_bread_sm_ndxqez.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627567/clarklake_cookbook/banana_bread_lg_epwxub.jpg",
-    "yield": 9,
-    "prepTime": 10,
-    "cookTime": 40,
+    "yield": "9",
+    "prepTime": "10mins",
+    "cookTime": "40mins",
     "ingredientsList": [
       "2 spotty bananas (bananas that have more black spots have higher alkalin)",
       "2 cage-free pasteurized eggs",
@@ -953,9 +960,9 @@
     "title": "Classic Cheesecake",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627565/clarklake_cookbook/cheesecake_sm_gr2a0a.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/cheesecake_lg_yrpvyx.jpg",
-    "yield": 10,
-    "prepTime": 10,
-    "cookTime": 60,
+    "yield": "10",
+    "prepTime": "10mins",
+    "cookTime": "1hour",
     "ingredientsList": [
       "16 Graham Crackers more if you'd like a thicker crust",
       "1 cup pecans 70g, toasted",
@@ -979,7 +986,7 @@
       "Add the sugar and the salt to the bowl and mix on medium until creamy. Scrape bowl down and mix until completely homogenous.",
       "Add sour cream and vanilla extract, mix well then add the eggs and yolks one at a time, allowing each to incorporate before adding the next. Sprinkle in the flour and continue to mix. Scrape the bowl down and mix until completely smooth.",
       "Pour the batter into the foil-wrapped 10 inch springform pan. The batter will not rise much at all during this low and slow bake so you can fill it up almost to the top. If you're using an 8inch pan then you will have some extra batter for individual/mini cheesecakes, which you can bake in cupcake papers.",
-      "Place springform pan into a large roasting pan or on a baking sheet (this makes sure there are no leaks and it's easier to remover from the oven.",
+      "Place springform pan into a large roasting pan or on a baking sheet. This makes sure there are no leaks and it's easier to remove from the oven.",
       "Bake at 350F for 20 minutes then reduce temperature to 300F and bake another 40 minutes or until cake's edge is set but center is still wobbly. Turn oven off but leave door closed and allow cake to rest for an additional hour in the oven. Remove from oven and cool to room temperature then cover with a towel or paper towel and chill overnight. You can enjoy the cheesecake after a few hours of chilling but it's MUCH easier to cut if you've chilled it overnight.",
       "You can garnish the cake with dollops of whipped cream, berries, or enjoy plain."
     ],
@@ -1000,11 +1007,10 @@
     "title": "Pastéis de Nata",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874541/clarklake_cookbook/paste%CC%81is_de_nata_sm_umioqd.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874542/clarklake_cookbook/paste%CC%81i_de_nata_lg_pkdbfj.jpg",
-    "yield": "12 Tarts",
-    "prepTime": 60,
-    "cookTime": "2H 30M",
+    "yield": "12 tarts",
+    "prepTime": "1hour",
+    "cookTime": "2hours 30Mins",
     "ingredientsList": [
-      "For the pastry...",
       "290g plain flour",
       "1/4 tsp salt",
       "210ml water",
@@ -1057,14 +1063,14 @@
     "title": "Kitten Orange Scones",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614876906/clarklake_cookbook/blood_orange_scone_sm_narlci.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874540/clarklake_cookbook/blood_orange_scone_lg_lj3wnb.jpg",
-    "yield": 10,
-    "prepTime": 30,
-    "cookTime": 20,
+    "yield": "10 scones",
+    "prepTime": "50mins",
+    "cookTime": "20mins",
     "ingredientsList": [
       "3 cups (448g) all purpose flour",
       "generous pinch of salt",
-      "2 teaspoons (8g) baking powder ",
-      "1/2 teaspoon (4g)  baking soda  ",
+      "2 tsp (8g) baking powder ",
+      "1/2 tsp (4g)  baking soda  ",
       "1/2 cup (112g) cold 1/2 inch cubed butter(keep in fridge until ready to use)",
       "1/2 cup (95g) heavy cream",
       "3/4 cup (175g) whole milk",
@@ -1115,10 +1121,10 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874538/clarklake_cookbook/cny_cake_sm_i2w4ca.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874536/clarklake_cookbook/cny_cake_lg_prc61m.jpg",
     "yield": "2 loaves",
-    "prepTime": "10M",
-    "cookTime": "50M",
+    "prepTime": "10Mins",
+    "cookTime": "50Mins",
     "ingredientsList": [
-      "1 lb. bag of glutinous rice flour  (Erawan Brand look for the green bag)",
+      "1 lb. bag of glutinous rice flour",
       "1 cups brown sugar",
       "2 Tbsp. oil",
       "2 1/4 cups filtered water"
@@ -1154,12 +1160,12 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874536/clarklake_cookbook/apple_pie_sm_ctjbt8.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614874540/clarklake_cookbook/apple_pie_lg_w6x4m4.jpg",
     "yield": "1 Pie",
-    "prepTime": "30M",
-    "cookTime": "1H",
+    "prepTime": "30Mins",
+    "cookTime": "1Hour",
     "ingredientsList": [
-      "1 recipe pastry for a 9 inch double crust pie",
+      "1 puff pastry for a 9 inch double crust pie",
       "½ cup unsalted butter",
-      "3 tablespoons all-purpose flour",
+      "3 tbsp all-purpose flour",
       "¼ cup water",
       "½ cup white sugar ",
       "½ cup packed brown sugar",
@@ -1189,11 +1195,11 @@
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462283/clarklake_cookbook/pesto_sm_vgvcoi.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462284/clarklake_cookbook/pesto_lg_pposac.jpg",
     "yield": "2 Cups",
-    "prepTime": "15 Minutes",
-    "cookTime": "0 Minutes",
+    "prepTime": "15 Mins",
+    "cookTime": "0 Mins",
     "ingredientsList": [
       "2 cups fresh basil leaves (no stems)",
-      "2 tablespoons pine nuts",
+      "2 tbsp pine nuts",
       "2 large cloves garlic",
       "½ cup extra-virgin olive oil",
       "½ cup freshly grated parmesan cheese",
@@ -1222,9 +1228,9 @@
     "title": "Focaccia Bread",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/focaccia_sm_ct1mqb.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614462282/clarklake_cookbook/focaccia_lg_a4w95i.jpg",
-    "yield": 30,
+    "yield": "1 18/13in sheet loaf",
     "prepTime": "4 Hours",
-    "cookTime": "35 Minutes",
+    "cookTime": "35 Mins",
     "ingredientsList": [
       "6¼ cups bread flour (30 oz. or 850g)",
       "2¼ tsp. active dry yeast (from one ¼-oz. packet)",
@@ -1265,9 +1271,9 @@
     "title": "Thanksgiving Stuffing",
     "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627566/clarklake_cookbook/stuffing_sm_dvd1sf.jpg",
     "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1614627567/clarklake_cookbook/stuffing_lg_qrdlue.jpg",
-    "yield": 8,
-    "prepTime": 25,
-    "cookTime": 60,
+    "yield": "8",
+    "prepTime": "25mins",
+    "cookTime": "1hour",
     "ingredientsList": [
       "2 baguettes, country, or sourdough bread (1 pound)",
       "8 tbsp. butter, plus more for baking dish",
@@ -1534,6 +1540,40 @@
       "wrap",
       "vegetarian",
       "dairy free"
+    ]
+  },
+  {
+    "category": "other",
+    "url": "/other/kale_pesto",
+    "title": "Kale Pesto",
+    "attImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1618689071/clarklake_cookbook/kale_pesto_sm_rnzbvx.jpg",
+    "bannerImg": "https://res.cloudinary.com/dzz7rzvkf/image/upload/v1618689069/clarklake_cookbook/kale_pesto_lg_jkcacj.jpg",
+    "yield": "4 servings",
+    "prepTime": "10mins",
+    "cookTime": "3mins",
+    "ingredientsList": [
+      "1 large bunch Tuscan kale, ribs and stems removed",
+      "⅓ cup raw pistachios",
+      "¼ cup extra-virgin olive oil",
+      "1 garlic clove",
+      "1 oz. Parmesan, finely grated, plus more for serving",
+      "2 Tbsp. unsalted butter"
+    ],
+    "directionsList": [
+      "Cook kale leaves in a large pot of boiling salted water until bright green and wilted, about 30 seconds. Transfer to a rimmed baking sheet with tongs; keep water boiling. Let kale cool slightly; wring out excess water with your hands.",
+      "Blend nuts, oil, garlic, and ⅓ cup water in a blender or food processor until very smooth. Add kale and 1 oz. Parmesan. Purée, adding water 1 Tbsp. at a time as needed, until smooth.",
+      "If not used right away, store in glass container."
+    ],
+    "dietary": [
+      "V",
+      "GF"
+    ],
+    "tags": [
+      "kale",
+      "pesto",
+      "sauce",
+      "vegetarian",
+      "gluten free"
     ]
   },
   {
