@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 // Components
 import RecipeCard from "../components/RecipeCard";
 // import SearchResult from "../components/SearchResult";
@@ -104,6 +107,7 @@ const HomeStyle = styled(motion.div)`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1.5em;
   }
   .btn-cta {
     text-decoration: none;
@@ -119,13 +123,23 @@ const HomeStyle = styled(motion.div)`
   .category-title {
     font-size: 3em;
     text-transform: uppercase;
-    padding-bottom: 0.5em;
+    /* padding-bottom: 0.5em; */
   }
   .recipe-category-cards {
     display: flex;
     justify-content: space-between;
   }
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 770px) {
+    .recipe-category-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .btn-cta {
+      font-size: 1.3em;
+    }
+    .category-title {
+      font-size: 2.5em;
+    }
   }
 `;
 
