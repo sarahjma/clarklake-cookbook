@@ -86,7 +86,7 @@ const HomeStyle = styled(motion.div)`
   .display-container {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 3em;
+    /* padding: 0 3em; */
   }
   .home-container {
     padding: 7em 0;
@@ -101,7 +101,7 @@ const HomeStyle = styled(motion.div)`
     max-width: 15%;
   }
   .recipe-category {
-    padding: 3em 0;
+    padding: 3em 3em;
   }
   .header {
     display: flex;
@@ -139,6 +139,9 @@ const HomeStyle = styled(motion.div)`
     }
     .category-title {
       font-size: 2.5em;
+    }
+    .recipe-category {
+      padding: 3em 2em;
     }
   }
 `;
