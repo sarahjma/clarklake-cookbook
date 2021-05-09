@@ -41,11 +41,20 @@ const Recipe = () => {
         className="recipe-info"
       >
         <div className="chefs-info">
-          <p>Serves: {info.yield}</p>
+          <p className="chefs-info-block">
+            <span className="chefs-info-label">Serves:</span>{" "}
+            <span className="chefs-info-res">{info.yield}</span>
+          </p>
           <span className="border-right"></span>
-          <p>Prep Time: {info.prepTime}</p>
+          <p className="chefs-info-block">
+            <span className="chefs-info-label">Prep Time:</span>{" "}
+            <span className="chefs-info-res">{info.prepTime}</span>
+          </p>
           <span className="border-right"></span>
-          <p>Cook Time: {info.cookTime}</p>
+          <p className="chefs-info-block">
+            <span className="chefs-info-label">Cook Time:</span>{" "}
+            <span className="chefs-info-res">{info.cookTime}</span>
+          </p>
         </div>
         <hr />
         <img src={info.bannerImg} alt="" />
@@ -116,6 +125,12 @@ const RecipeStyle = styled(motion.div)`
       margin: 0 1em;
     }
   }
+  .chefs-info-block {
+    display: flex;
+  }
+  .chefs-info-label {
+    font-weight: 400;
+  }
   hr {
     border: none;
     border-top: 1px solid black;
@@ -158,6 +173,74 @@ const RecipeStyle = styled(motion.div)`
   }
   .list-ingredients p {
     padding-left: 1em;
+  }
+  @media only screen and (max-width: 950px) {
+    .header h1 {
+      font-size: 1.9em;
+      padding: 0.1em 1em 0.1em 2em;
+    }
+    .chefs-info {
+      font-size: 1.1em;
+    }
+    .chefs-info-block {
+      flex-direction: column;
+    }
+    .recipe-info {
+      padding: 7em 2em 4em;
+    }
+    .list-header {
+      font-size: 2em;
+    }
+    li {
+      font-size: 1.1em;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .header {
+      width: 100%;
+    }
+    .header h1 {
+      font-size: 1.5em;
+      text-align: center;
+      padding: 0.1em 0.5em 0.1em;
+    }
+    .recipe-info {
+      padding: 6em 1em 4em;
+    }
+    .list-directions {
+      padding: 2em 0;
+      flex-direction: column;
+    }
+    .list {
+      width: 100%;
+    }
+    .list-header {
+      padding-bottom: 0.3em;
+    }
+    .left-block-spacer {
+      padding: 0 0 2.3em 0;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .header h1 {
+      font-size: 1.3em;
+    }
+    .chefs-info {
+      font-size: 0.8em;
+      padding: 0em 1em 1.3em;
+    }
+    .recipe-info {
+      padding: 4.5em 0 4em;
+    }
+    .list-directions {
+      padding: 2em 1em;
+    }
+    .list-header {
+      font-size: 1.8em;
+    }
+    li {
+      font-size: 1em;
+    }
   }
 `;
 

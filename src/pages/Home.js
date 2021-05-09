@@ -123,7 +123,6 @@ const HomeStyle = styled(motion.div)`
   .category-title {
     font-size: 3em;
     text-transform: uppercase;
-    /* padding-bottom: 0.5em; */
   }
   .recipe-category-cards {
     display: flex;
