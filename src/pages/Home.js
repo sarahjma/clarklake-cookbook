@@ -89,7 +89,7 @@ const HomeStyle = styled(motion.div)`
     /* padding: 0 3em; */
   }
   .home-container {
-    padding: 7em 0;
+    padding: 4em 0;
   }
   .header-img {
     display: flex;
@@ -140,7 +140,7 @@ const HomeStyle = styled(motion.div)`
       font-size: 2.5em;
     }
     .recipe-category {
-      padding: 3em 2em;
+      padding: 1em 2em;
     }
   }
 `;

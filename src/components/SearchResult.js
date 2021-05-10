@@ -58,11 +58,12 @@ const SearchStyle = styled.div`
   margin: 0 auto;
   .query-header {
     font-size: 5em;
+    padding: 0em 0.5em;
   }
   .search-container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: space-evenly;
     flex-wrap: wrap;
   }

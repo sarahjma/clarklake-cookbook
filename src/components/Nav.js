@@ -24,9 +24,15 @@ const NavStyle = styled.nav`
     position: absolute;
     top: 1%;
     left: 4%;
-    max-width: 5%;
+    max-width: 73px;
     padding: 0.5em;
-    margin: 0.5em 2.5em;
+    /* margin: 0.5em 2.5em; */
+  }
+  @media only screen and (max-width: 770px) {
+    .home-btn img {
+      max-width: 60px;
+      top: 3%;
+    }
   }
 `;
 

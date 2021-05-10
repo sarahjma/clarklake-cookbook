@@ -8,7 +8,6 @@ import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import Recipe from "./pages/Recipe";
 import ScrollTop from "./components/ScrollTop";
-import Nav from "./components/Nav";
 
 // Animation
 import { AnimatePresence } from "framer-motion";
@@ -31,7 +30,6 @@ function App() {
     <div className="App">
       <ScrollTop />
       <GlobalStyle />
-      <Nav />
       <SearchBarStyle>
         <div className="search-input">
           <InputStyle
@@ -96,8 +94,9 @@ const SearchBarStyle = styled.div`
   .search-input {
     position: absolute;
     top: 55px;
-    left: 91%;
-    transform: translate(-50%, -50%);
+    left: 95%;
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-100%, -50%);
     background: white;
     border-radius: 40px;
     border: 3px solid #3d7042;
@@ -133,6 +132,11 @@ const SearchBarStyle = styled.div`
   .input-box {
     padding: 0 1em;
     width: 230px;
+  }
+  @media only screen and (max-width: 770px) {
+    .search-input {
+      top: 44px;
+    }
   }
 `;
 

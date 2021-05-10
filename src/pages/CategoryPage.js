@@ -1,7 +1,9 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+
 // Style & Assets
 import RecipeCard from "../components/RecipeCard";
+import Nav from "../components/Nav";
 import styled from "styled-components";
 
 // Animation
@@ -16,29 +18,32 @@ const CategoryPage = (props) => {
   console.log(category);
 
   return (
-    <CategoryStyle
-      variants={pageTrans}
-      initial="hidden"
-      animate="show"
-      exit="exit"
-    >
-      <motion.h1
-        variants={catTitleAnim}
+    <React.Fragment>
+      <Nav />
+      <CategoryStyle
+        variants={pageTrans}
         initial="hidden"
         animate="show"
-        className="cat-header"
+        exit="exit"
       >
-        {category}s
-      </motion.h1>
-      <motion.div
-        variants={staggerItems}
-        initial="hidden"
-        animate="show"
-        className="card-container"
-      >
-        <RecipeCard className="category-card" category={category} />
-      </motion.div>
-    </CategoryStyle>
+        <motion.h1
+          variants={catTitleAnim}
+          initial="hidden"
+          animate="show"
+          className="cat-header"
+        >
+          {category}s
+        </motion.h1>
+        <motion.div
+          variants={staggerItems}
+          initial="hidden"
+          animate="show"
+          className="card-container"
+        >
+          <RecipeCard className="category-card" category={category} />
+        </motion.div>
+      </CategoryStyle>
+    </React.Fragment>
   );
 };
 

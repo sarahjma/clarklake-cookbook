@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import Nav from "../components/Nav";
 // Style & Assets
 import styled from "styled-components";
 import data from "../data/recipeIndex.json";
@@ -18,73 +19,76 @@ const Recipe = () => {
   const ingredientsList = info.ingredientsList;
   const directionsList = info.directionsList;
   return (
-    <RecipeStyle
-      variants={pageTrans}
-      initial="hidden"
-      animate="show"
-      exit="exit"
-    >
-      <motion.div
-        variants={detailTitleAnim}
+    <React.Fragment>
+      <Nav />
+      <RecipeStyle
+        variants={pageTrans}
         initial="hidden"
         animate="show"
-        className="header"
+        exit="exit"
       >
-        <div className="header-container">
-          <h1>{info.title}</h1>
-        </div>
-      </motion.div>
-      <motion.div
-        variants={staggerItems}
-        initial="hidden"
-        animate="show"
-        className="recipe-info"
-      >
-        <div className="chefs-info">
-          <p className="chefs-info-block">
-            <span className="chefs-info-label">Serves:</span>{" "}
-            <span className="chefs-info-res">{info.yield}</span>
-          </p>
-          <span className="border-right"></span>
-          <p className="chefs-info-block">
-            <span className="chefs-info-label">Prep Time:</span>{" "}
-            <span className="chefs-info-res">{info.prepTime}</span>
-          </p>
-          <span className="border-right"></span>
-          <p className="chefs-info-block">
-            <span className="chefs-info-label">Cook Time:</span>{" "}
-            <span className="chefs-info-res">{info.cookTime}</span>
-          </p>
-        </div>
-        <hr />
-        <img src={info.bannerImg} alt="" />
-        <div className="list-directions">
-          <div className="list">
-            <div className="left-block-spacer">
-              <h2 className="list-header">Ingredients</h2>
-              {ingredientsList.map((x) => (
+        <motion.div
+          variants={detailTitleAnim}
+          initial="hidden"
+          animate="show"
+          className="header"
+        >
+          <div className="header-container">
+            <h1>{info.title}</h1>
+          </div>
+        </motion.div>
+        <motion.div
+          variants={staggerItems}
+          initial="hidden"
+          animate="show"
+          className="recipe-info"
+        >
+          <div className="chefs-info">
+            <p className="chefs-info-block">
+              <span className="chefs-info-label">Serves:</span>{" "}
+              <span className="chefs-info-res">{info.yield}</span>
+            </p>
+            <span className="border-right"></span>
+            <p className="chefs-info-block">
+              <span className="chefs-info-label">Prep Time:</span>{" "}
+              <span className="chefs-info-res">{info.prepTime}</span>
+            </p>
+            <span className="border-right"></span>
+            <p className="chefs-info-block">
+              <span className="chefs-info-label">Cook Time:</span>{" "}
+              <span className="chefs-info-res">{info.cookTime}</span>
+            </p>
+          </div>
+          <hr />
+          <img src={info.bannerImg} alt="" />
+          <div className="list-directions">
+            <div className="list">
+              <div className="left-block-spacer">
+                <h2 className="list-header">Ingredients</h2>
+                {ingredientsList.map((x) => (
+                  <ul key={x}>
+                    <li className="list-ingredients">
+                      <input type="checkbox" />
+                      <p>{x}</p>
+                    </li>
+                  </ul>
+                ))}
+              </div>
+            </div>
+            <div className="list">
+              <h2 className="list-header">Directions</h2>
+              {directionsList.map((x) => (
                 <ul key={x}>
-                  <li className="list-ingredients">
-                    <input type="checkbox" />
+                  <li>
                     <p>{x}</p>
                   </li>
                 </ul>
               ))}
             </div>
           </div>
-          <div className="list">
-            <h2 className="list-header">Directions</h2>
-            {directionsList.map((x) => (
-              <ul key={x}>
-                <li>
-                  <p>{x}</p>
-                </li>
-              </ul>
-            ))}
-          </div>
-        </div>
-      </motion.div>
-    </RecipeStyle>
+        </motion.div>
+      </RecipeStyle>
+    </React.Fragment>
   );
 };
 
@@ -196,6 +200,7 @@ const RecipeStyle = styled(motion.div)`
     }
   }
   @media only screen and (max-width: 770px) {
+    padding-top: 5.5em;
     .header {
       width: 100%;
     }
