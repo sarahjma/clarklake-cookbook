@@ -81,6 +81,7 @@ const SearchStyle = styled.div`
     .query-header {
       font-size: 3.5em;
     }
+  }
 `;
 
 export default SearchResult;
