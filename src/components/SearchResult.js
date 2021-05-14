@@ -2,6 +2,7 @@ import React from "react";
 // Style & Asset
 import data from "../data/recipeIndex.json";
 import styled from "styled-components";
+import Nav from "../components/Nav";
 // Animation
 import { RecipeCardStyle } from "../styles/styles";
 import { hoverCard } from "../styles/Animation";
@@ -11,6 +12,7 @@ const SearchResult = (props) => {
 
   return (
     <SearchStyle>
+      <Nav />
       <h2 className="query-header">"{props.searchValue}"</h2>
       <div className="search-container">
         {shouldDisplay &&
@@ -70,6 +72,15 @@ const SearchStyle = styled.div`
   .search-container > * {
     margin: 2.7em 0;
   }
+  @media only screen and (max-width: 1080px) {
+    .query-header {
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .query-header {
+      font-size: 3.5em;
+    }
 `;
 
 export default SearchResult;

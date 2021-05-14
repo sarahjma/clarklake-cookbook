@@ -77,7 +77,7 @@ const CategoryStyle = styled(motion.div)`
   }
   @media only screen and (max-width: 770px) {
     .cat-header {
-      font-size: 2.5em;
+      font-size: 3.5em;
     }
   }
 `;

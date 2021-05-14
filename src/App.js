@@ -126,7 +126,7 @@ const SearchBarStyle = styled.div`
     cursor: pointer;
   }
   .search-input:hover > input {
-    width: 230px;
+    width: 180px;
     padding: 0 1em;
   }
   .input-box {
