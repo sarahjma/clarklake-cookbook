@@ -11,6 +11,8 @@ import { pageTrans } from "../styles/Animation";
 import { detailTitleAnim } from "../styles/Animation";
 import { staggerItems } from "../styles/Animation";
 
+// Adding some changes for testing
+
 const Recipe = () => {
   const history = useHistory();
   const url = history.location.pathname;

@@ -131,7 +131,7 @@ const SearchBarStyle = styled.div`
   }
   .input-box {
     padding: 0 1em;
-    width: 230px;
+    width: 180px;
   }
   @media only screen and (max-width: 770px) {
     .search-input {
