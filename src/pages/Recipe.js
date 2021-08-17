@@ -11,7 +11,8 @@ import { pageTrans } from "../styles/Animation";
 import { detailTitleAnim } from "../styles/Animation";
 import { staggerItems } from "../styles/Animation";
 
-// Adding some changes for testing
+// Adding some pseudo code to inflict changes in my repo
+// It is hard to spell the word pseudo. easier if first spelled without the silent p
 
 const Recipe = () => {
   const history = useHistory();
